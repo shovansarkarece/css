@@ -6,4 +6,4 @@
 ![image](https://github.com/user-attachments/assets/b80516a7-bbf0-4224-a382-6d97278b53b7)
 # What is CSS?
 - Cascading Style Sheets (CSS) is a stylesheet language used to describe the look & presentation of a document written in HTML or XML.
--- It defines how elements are displayed on a web page.
+- It defines how elements are displayed on a web page.
