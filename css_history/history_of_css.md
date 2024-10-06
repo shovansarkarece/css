@@ -4,3 +4,6 @@
 ![image](https://github.com/user-attachments/assets/d5027c16-3968-46fc-892f-6be1ec15ca8a)
 # Abbreviation Of CSS
 ![image](https://github.com/user-attachments/assets/b80516a7-bbf0-4224-a382-6d97278b53b7)
+# What is CSS?
+- Cascading Style Sheets (CSS) is a stylesheet language used to describe the look & presentation of a document written in HTML or XML.
+-- It defines how elements are displayed on a web page.
