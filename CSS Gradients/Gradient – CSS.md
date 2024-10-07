@@ -281,7 +281,8 @@ section {
   );
 }
 ```
-
+# Output
+![image](https://github.com/user-attachments/assets/9fc2b43e-c741-48e8-89dd-f1d0bd669a70)
 
 # Explain the difference between linear gradients and radial gradients in CSS. When would you use one over the other?
 ## Linear gradients create a smooth transition along a straight line, such as from top to bottom or left to right. Radial gradients, on the other hand, create a circular transition from the center outward. 
