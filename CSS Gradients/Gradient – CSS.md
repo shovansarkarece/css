@@ -1,7 +1,7 @@
 # Gradient – CSS
 ## The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line 
-- **linear-gradient(red, yellow)-->It will always work from top to bottom)**
-  
+- **linear-gradient(red, yellow)-->It will always work from top to bottom where first color will be red and second colour will be yellow)**
+- **linear-gradient(180deg, red, yellow)-->It will always work from top to bottom where first color will be red and second colour will be yellow)**
 ![image](https://github.com/user-attachments/assets/49452aae-2e71-4bce-82b4-9025d05ae263)
 ## Example-1
 ```
