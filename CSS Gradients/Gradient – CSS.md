@@ -315,6 +315,63 @@ background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/fbad578c-bc11-49f7-8a24-96b6fc89783f)
+# Add color overlay on image
+```
+  background-image: linear-gradient(
+     to right top,
+      rgba(5, 25, 55, 0.6),
+      rgba(0, 77, 122, 0.6),
+     rgba(0, 135, 147, 0.6),
+     rgba(0, 191, 114, 0.6),
+      rgba(168, 235, 18, 0.6)
+    ),
+>   url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+>  background-repeat: no-repeat;
+> background-size: cover;
+```
+# Example
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <!-- <link rel="stylesheet" href="radial-style.css" /> -->
+    <link rel="stylesheet" href="linear-style.css"> 
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////linear-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+    background-image: linear-gradient(
+      to right top,
+      rgba(5, 25, 55, 0.6),
+      rgba(0, 77, 122, 0.6),
+      rgba(0, 135, 147, 0.6),
+      rgba(0, 191, 114, 0.6),
+      rgba(168, 235, 18, 0.6)
+    ),
+    url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/d7b7c44e-d98b-4649-bb3d-5b4c675235d2)
+
+
 # Explain the difference between linear gradients and radial gradients in CSS. When would you use one over the other?
 ## Linear gradients create a smooth transition along a straight line, such as from top to bottom or left to right. Radial gradients, on the other hand, create a circular transition from the center outward. 
 ## We would use linear gradients for linear background effects like horizontal or vertical color transitions. Radial gradients are ideal for creating circular elements or radial backgrounds, 
