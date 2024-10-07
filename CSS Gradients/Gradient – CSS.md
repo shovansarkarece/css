@@ -284,7 +284,7 @@ section {
 # Output
 ![image](https://github.com/user-attachments/assets/9fc2b43e-c741-48e8-89dd-f1d0bd669a70)
 # Repeating linear gradient in CSS? 
-## background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);--->here 45px will be repeated that color
+## background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);--->here last parameter is 45px which will be repeated that color
 ```
 ////index.html
 <!DOCTYPE html>
@@ -315,14 +315,10 @@ background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/fbad578c-bc11-49f7-8a24-96b6fc89783f)
-
-
-
-
 # Explain the difference between linear gradients and radial gradients in CSS. When would you use one over the other?
 ## Linear gradients create a smooth transition along a straight line, such as from top to bottom or left to right. Radial gradients, on the other hand, create a circular transition from the center outward. 
-## You would use linear gradients for linear background effects like horizontal or vertical color transitions. Radial gradients are ideal for creating circular elements or radial backgrounds, 
-## such as buttons or circular divs.*/
+## We would use linear gradients for linear background effects like horizontal or vertical color transitions. Radial gradients are ideal for creating circular elements or radial backgrounds, 
+## such as buttons or circular divs.
 
 # Radial Gradient – CSS 
 ![image](https://github.com/user-attachments/assets/a9b311ab-b27f-46ab-82f5-3c7ca0da885a)
