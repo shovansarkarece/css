@@ -239,7 +239,7 @@ section {
 # Output
 ![image](https://github.com/user-attachments/assets/ea16794e-c7b6-44b9-8f78-bf30caff990d)
 # transitions from multiple colors rather than just two
-##  background-image: linear-gradient(
+  background-image: linear-gradient(
  to right top,
   #051937,
   #004d7a,
