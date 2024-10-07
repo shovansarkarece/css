@@ -70,6 +70,7 @@ section {
 ![image](https://github.com/user-attachments/assets/9004a835-9593-4655-9531-39b38832dbab)
 ## Example-2
 ## linear-gradient(to right, red, yellow)-->It means go towards right to left where first color will be red and second colour will be yellow
+## linear-gradient(90deg, red, yellow)-->It means go towards right to left where first color will be red and second colour will be yellow 
 ```
 ////index.html
 <!DOCTYPE html>
@@ -95,7 +96,8 @@ section {
 section {
   width: 100%;
   height: 100vh;
- background-image: linear-gradient(to right, red, yellow);
+  background-image: linear-gradient(to right, red, yellow);
+  background-image: linear-gradient(90deg, red, yellow);
 }
 ```
 ## Output
