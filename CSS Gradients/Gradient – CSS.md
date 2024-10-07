@@ -70,22 +70,11 @@ section {
     /* background-image: linear-gradient(360deg, red, yellow); */
 }
 ```
-
-
-
 ## Output
 ![image](https://github.com/user-attachments/assets/76409802-48b3-4b26-b74b-413777f3b79c)
-
-
-
-
-
-
-
 # Gradient with Direction – CSS
 ## linear-gradient(to left, red, yellow)-->It means go towards left right where first color will be red and second colour will be yellow
 ## linear-gradient(270deg, red, yellow)-->It means go towards left right where first color will be red and second colour will be yellow
-![image](https://github.com/user-attachments/assets/6f6f8142-3d94-4eae-bf7c-9252befad9ea)
 ## Example-1
 ```
 ////index.html
@@ -120,6 +109,7 @@ section {
 ## Example-2
 ## linear-gradient(to right, red, yellow)-->It means go towards right to left where first color will be red and second colour will be yellow
 ## linear-gradient(90deg, red, yellow)-->It means go towards right to left where first color will be red and second colour will be yellow 
+![image](https://github.com/user-attachments/assets/6f6f8142-3d94-4eae-bf7c-9252befad9ea)
 ```
 ////index.html
 <!DOCTYPE html>
@@ -183,9 +173,6 @@ section {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/bcbccc24-3bd8-4a84-bec7-e4d9ec103f61)
-
-# Gradient with Angles – CSS
-![image](https://github.com/user-attachments/assets/f05f0314-eafb-49b7-bf65-61e98c349b38)
 # Radial Gradient – CSS 
 ![image](https://github.com/user-attachments/assets/a9b311ab-b27f-46ab-82f5-3c7ca0da885a)
 # Gradient with Shape – CSS
