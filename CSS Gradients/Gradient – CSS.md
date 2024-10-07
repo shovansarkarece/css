@@ -36,7 +36,52 @@ background-image: linear-gradient(180deg,red, yellow);
 }
 ```
 ## Output
-### linear-gradient(red, yellow)-->It will always work from top to bottom)
+
+## linear-gradient(to top, red, yellow)-->It means go towards bottom to top right where first color will be red and second colour will be yellow
+## linear-gradient(360deg, red, yellow)-->It means go towards bottom to top where first color will be red and second colour will be yellow
+![image](https://github.com/user-attachments/assets/6f6f8142-3d94-4eae-bf7c-9252befad9ea)
+## Example-1
+```
+////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="linear-style.css"> 
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////linear-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+ background-image: linear-gradient(to top, red, yellow);
+    /* background-image: linear-gradient(360deg, red, yellow); */
+}
+```
+
+
+
+## Output
+![image](https://github.com/user-attachments/assets/76409802-48b3-4b26-b74b-413777f3b79c)
+
+
+
+
+
+
+
 # Gradient with Direction – CSS
 ## linear-gradient(to left, red, yellow)-->It means go towards left right where first color will be red and second colour will be yellow
 ## linear-gradient(270deg, red, yellow)-->It means go towards left right where first color will be red and second colour will be yellow
