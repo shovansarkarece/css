@@ -37,7 +37,7 @@ section {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/2ca72867-f245-4af1-9599-f6e119e0be69)
-## linear-gradient(to top, red, yellow)-->It means go towards bottom to top right where first color will be red and second colour will be yellow
+## linear-gradient(to top, red, yellow)-->It means go towards bottom to top where first color will be red and second colour will be yellow
 ## linear-gradient(360deg, red, yellow)-->It means go towards bottom to top where first color will be red and second colour will be yellow
 ![image](https://github.com/user-attachments/assets/6f6f8142-3d94-4eae-bf7c-9252befad9ea)
 ## Example-2
