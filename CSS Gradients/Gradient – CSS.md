@@ -100,6 +100,39 @@ section {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/42f20741-5895-4c3d-972f-7b0a4950844d)
+## Example-3
+## linear-gradient(to top, red, yellow)-->It means go towards bottom to top where first color will be red and second colour will be yellow
+```
+////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="linear-style.css"> 
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////linear-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+ background-image: linear-gradient(to top, red, yellow);
+}
+```
+## Output
+![image](https://github.com/user-attachments/assets/bcbccc24-3bd8-4a84-bec7-e4d9ec103f61)
+
 # Gradient with Angles – CSS
 ![image](https://github.com/user-attachments/assets/f05f0314-eafb-49b7-bf65-61e98c349b38)
 # Radial Gradient – CSS 
