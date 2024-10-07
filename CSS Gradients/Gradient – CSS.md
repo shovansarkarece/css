@@ -208,10 +208,79 @@ section {
 ![image](https://github.com/user-attachments/assets/e25f9ed5-0912-4b9d-b884-09bf000d13f8)
 ## 4: How can you create a transparent gradient in CSS? 🚀 
 ### background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)); 
+```
+////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="linear-style.css"> 
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////linear-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+section {
+  width: 100%;
+  height: 100vh;
+ background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/ea16794e-c7b6-44b9-8f78-bf30caff990d)
+# transitions from multiple colors rather than just two
+##  background-image: linear-gradient(
+ to right top,
+  #051937,
+  #004d7a,
+  #008793,
+  #00bf72,
+  #a8eb12);
+```
+////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="linear-style.css"> 
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////linear-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-
-
+section {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+```
 
 
 # Explain the difference between linear gradients and radial gradients in CSS. When would you use one over the other?
