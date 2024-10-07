@@ -174,7 +174,6 @@ section {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/221c2cf2-43e3-4197-b377-42aecfe90f7f)
-
 ## Example-2
 ## linear-gradient(to bottom right, red, yellow);-->It means go towards bottom right from top left first color will be red and second color will be yellow.
 ```
@@ -207,10 +206,18 @@ section {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/e25f9ed5-0912-4b9d-b884-09bf000d13f8)
+## 4: How can you create a transparent gradient in CSS? 🚀 
+### background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)); 
+
+
+
+
+
 
 # Explain the difference between linear gradients and radial gradients in CSS. When would you use one over the other?
-## Linear gradients create a smooth transition along a straight line, such as from top to bottom or left to right. Radial gradients, on the other hand, create a circular transition from the center outward. You ## would use linear gradients for linear background effects like horizontal or vertical color transitions. Radial gradients are ideal for creating circular elements or radial backgrounds, such as buttons or 
-## circular divs.*/
+## Linear gradients create a smooth transition along a straight line, such as from top to bottom or left to right. Radial gradients, on the other hand, create a circular transition from the center outward. 
+## You would use linear gradients for linear background effects like horizontal or vertical color transitions. Radial gradients are ideal for creating circular elements or radial backgrounds, 
+## such as buttons or circular divs.*/
 
 # Radial Gradient – CSS 
 ![image](https://github.com/user-attachments/assets/a9b311ab-b27f-46ab-82f5-3c7ca0da885a)
