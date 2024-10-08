@@ -208,6 +208,7 @@ section {
 ![image](https://github.com/user-attachments/assets/e25f9ed5-0912-4b9d-b884-09bf000d13f8)
 ## 4: How can you create a transparent gradient in CSS? 🚀 
 ### background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)); 
+> Here, the Last parameter used for transperent
 ```
 ////index.html
 <!DOCTYPE html>
@@ -239,6 +240,7 @@ section {
 # Output
 ![image](https://github.com/user-attachments/assets/ea16794e-c7b6-44b9-8f78-bf30caff990d)
 # transitions from multiple colors rather than just two
+```
   background-image: linear-gradient(
  to right top,
   #051937,
@@ -246,6 +248,7 @@ section {
   #008793,
   #00bf72,
   #a8eb12);
+```
 ```
 ////index.html
 <!DOCTYPE html>
