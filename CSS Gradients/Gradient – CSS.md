@@ -145,7 +145,7 @@ section {
 ![image](https://github.com/user-attachments/assets/42f20741-5895-4c3d-972f-7b0a4950844d)
 # Gradient with Diagonal Direction
 ## Example-1
-## linear-gradient(to top left, red, yellow)-->It means go towards top left from bottom right first color will be red and second colour will be yellow.
+- **linear-gradient(to top left, red, yellow)-->It means go towards top left from bottom right first color will be red and second colour will be yellow.**
 ```
 ////index.html
 <!DOCTYPE html>
@@ -177,7 +177,7 @@ section {
 ## Output
 ![image](https://github.com/user-attachments/assets/221c2cf2-43e3-4197-b377-42aecfe90f7f)
 ## Example-2
-## linear-gradient(to bottom right, red, yellow);-->It means go towards bottom right from top left first color will be red and second color will be yellow.
+- **linear-gradient(to bottom right, red, yellow);-->It means go towards bottom right from top left first color will be red and second color will be yellow.**
 ```
 ////index.html
 <!DOCTYPE html>
@@ -209,8 +209,8 @@ section {
 ## Output
 ![image](https://github.com/user-attachments/assets/e25f9ed5-0912-4b9d-b884-09bf000d13f8)
 ## 4: How can you create a transparent gradient in CSS? 🚀 
-### background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)); 
-> Here, the Last parameter used for transperent
+- **background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));-->> Here, the Last parameter used for transperent** 
+
 ```
 ////index.html
 <!DOCTYPE html>
