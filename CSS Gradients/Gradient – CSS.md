@@ -287,7 +287,8 @@ section {
 # Output
 ![image](https://github.com/user-attachments/assets/9fc2b43e-c741-48e8-89dd-f1d0bd669a70)
 # Repeating linear gradient in CSS? 
-## background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);--->here last parameter is 45px which will be repeated that color
+## background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);
+## Here last parameter is 45px which will be repeated the color
 ```
 ////index.html
 <!DOCTYPE html>
