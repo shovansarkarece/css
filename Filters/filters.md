@@ -61,20 +61,245 @@ img {
 ## Output
 ![image](https://github.com/user-attachments/assets/311a3b30-7463-4090-8ff6-d77535596aff)
 ## blur(): Applies a blur effect to the element. The value determines the amount of blur.
-
-/* filter: blur(5px); 5 pixels of blur */
-
-/*? brightness(): Adjusts the brightness of the element. Values greater than 1 increase brightness, and values less than 1 decrease it. */
-/* filter: brightness(1.5); 150% brightness */
-
-/*? contrast(): Adjusts the contrast of the element. Similar to brightness(), values greater than 1 increase contrast, and values less than 1 decrease it. */
-/* filter: contrast(0.8); 80% contrast */
-
-/*? saturate(): Increases or decreases the saturation of the element. Values greater than 1 increase saturation, and values less than 1 desaturate it. */
-/* filter: saturate(2); Double saturation */
-
-/*? hue-rotate(): Rotates the hues of the element. Values are in degrees. */
-/* filter: hue-rotate(90deg); 90-degree hue rotation */
+- **```filter: blur(5px)```--> It means 5 pixels of blur.**
+### Example-2
+```
+/////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters In CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <img src="../images/html.png" alt="thapa techncial html course" />
+    </section>
+  </body>
+</html>
+/////style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Urbanist";
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  display: grid;
+  place-items: center;
+}
+img {
+  width: 50%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  filter: blur(5px);
+```
+## Output
+![image](https://github.com/user-attachments/assets/a690c4d6-bbb9-4695-91e9-e40bd7df5664)
+## brightness(): Adjusts the brightness of the element. Values greater than 1 increase brightness, and values less than 1 decrease it. */
+- **```filter: brightness(1.5);``` -->It means 150% brightness.**
+### Example-3
+```
+/////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters In CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <img src="../images/html.png" alt="thapa techncial html course" />
+    </section>
+  </body>
+</html>
+/////style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Urbanist";
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  display: grid;
+  place-items: center;
+}
+img {
+  width: 50%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   filter: brightness(150%);   /* filter: brightness(1.5);*/ /*It means 150% brightness.*/
+```
+## Output
+![image](https://github.com/user-attachments/assets/e9d5fa3d-dab2-49ad-9afe-9e9a500772cb)
+## contrast(): Adjusts the contrast of the element. Similar to brightness(), values greater than 1 increase contrast, and values less than 1 decrease it.
+- **```filter: contrast(0.8);```-->It means 80% contrast.**
+### Example-4
+```
+/////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters In CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <img src="../images/html.png" alt="thapa techncial html course" />
+    </section>
+  </body>
+</html>
+/////style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Urbanist";
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  display: grid;
+  place-items: center;
+}
+img {
+  width: 50%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   contrast(150%); /*150% contrast*/
+```
+## Output
+![image](https://github.com/user-attachments/assets/828d953b-cb8f-485c-bf67-eb56708ef0a4)
+## saturate(): Increases or decreases the saturation of the element. Values greater than 1 increase saturation, and values less than 1 desaturate it.
+- **```filter: saturate(2);```-->It means Double saturation**
+### Example-4
+```
+/////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters In CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <img src="../images/html.png" alt="thapa techncial html course" />
+    </section>
+  </body>
+</html>
+/////style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Urbanist";
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  display: grid;
+  place-items: center;
+}
+img {
+  width: 50%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    filter: saturate(5);/**/
+```
+### Output
+![image](https://github.com/user-attachments/assets/19038da9-52af-4553-8f02-d64983a62703)
+## hue-rotate(): Rotates the hues of the element. Values are in degrees. */
+- **```filter: hue-rotate(90deg);```--> It means 90-degree hue rotation.**
+### Example-4
+```
+/////index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters In CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <img src="../images/html.png" alt="thapa techncial html course" />
+    </section>
+  </body>
+</html>
+/////style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Urbanist";
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  display: grid;
+  place-items: center;
+}
+img {
+  width: 50%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    filter: saturate(5);/**/
+```
+### Output
+![image](https://github.com/user-attachments/assets/3920c191-880d-4b9d-a76e-0d85cf047a54)
 
 /*? invert(): Inverts the colors of the element. A value of 1 (or 100%) inverts completely. */
 /* filter: invert(0.7); 70% color inversion */
