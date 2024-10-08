@@ -539,3 +539,9 @@ section {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/b3123463-51c8-4038-a342-194b6ad8ad59)
+# Disclaimer:
+- **In most the cases we are using below link**
+- 1)[uigradients](https://uigradients.com/#DIMIGO)
+- 2)[cssgradient](https://cssgradient.io/)
+- 3)[css-gradient](https://www.css-gradient.com/)
+- 4)[mycolor](https://mycolor.space/gradient)
