@@ -502,3 +502,40 @@ section {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/de7ddd53-cb58-4c05-aa9d-9512b5def084)
+# Circular pattern of colors with smooth transitions between them
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="radial-style.css" />
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////radial-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  height: 100vh;
+       background: radial-gradient(
+    circle at center,
+    #ff5733 0%,
+    #ffc300 20%,
+    #ff5733 40%,
+    #2980b9 60%,
+    #33ff57 80%,
+    #2980b9 100%
+  );
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/b3123463-51c8-4038-a342-194b6ad8ad59)
