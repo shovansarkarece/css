@@ -109,8 +109,8 @@ section {
 ## Output
 ![image](https://github.com/user-attachments/assets/9004a835-9593-4655-9531-39b38832dbab)
 ## Example-2
-## linear-gradient(to right, red, yellow)-->It means go towards right to left where first color will be red and second colour will be yellow
-## linear-gradient(90deg, red, yellow)-->It means go towards right to left where first color will be red and second colour will be yellow 
+- **linear-gradient(to right, red, yellow)-->It means go towards right to left where first color will be red and second colour will be yellow**
+- **linear-gradient(90deg, red, yellow)-->It means go towards right to left where first color will be red and second colour will be yellow**
 ![image](https://github.com/user-attachments/assets/6f6f8142-3d94-4eae-bf7c-9252befad9ea)
 ```
 ////index.html
