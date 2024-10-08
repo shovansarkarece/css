@@ -380,6 +380,7 @@ section {
 ## Linear gradients create a smooth transition along a straight line, such as from top to bottom or left to right. Radial gradients, on the other hand, create a circular transition from the center outward.We would use linear gradients for linear background effects like horizontal or vertical color transitions. Radial gradients are ideal for creating circular elements or radial backgrounds,such as buttons or circular divs.
 
 # Radial Gradient – CSS 
+## Radial gradients are ideal for creating circular elements or radial backgrounds,such as buttons or circular divs.
 ![image](https://github.com/user-attachments/assets/a9b311ab-b27f-46ab-82f5-3c7ca0da885a)
 # Gradient with Shape – CSS
 ![image](https://github.com/user-attachments/assets/b03b37ab-966e-47db-9435-ebd64e637d05)
