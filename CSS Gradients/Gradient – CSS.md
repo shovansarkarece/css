@@ -38,8 +38,10 @@ section {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/2ca72867-f245-4af1-9599-f6e119e0be69)
-## linear-gradient(to top, red, yellow)-->It means go towards bottom to top where first color will be red and second colour will be yellow
-## linear-gradient(360deg, red, yellow)-->It means go towards bottom to top where first color will be red and second colour will be yellow
+# linear-gradient() with direction
+- **linear-gradient(to top, red, yellow)-->It means go towards bottom to top where first color will be red and second colour will be yellow**
+- **linear-gradient(360deg, red, yellow)-->It means go towards bottom to top where first color will be red and second colour will be yellow**
+
 ![image](https://github.com/user-attachments/assets/6f6f8142-3d94-4eae-bf7c-9252befad9ea)
 ## Example-2
 ```
@@ -73,9 +75,9 @@ section {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/76409802-48b3-4b26-b74b-413777f3b79c)
-# Gradient with Direction – CSS
-## linear-gradient(to left, red, yellow)-->It means go towards left right where first color will be red and second colour will be yellow
-## linear-gradient(270deg, red, yellow)-->It means go towards left right where first color will be red and second colour will be yellow
+# linear-gradient() with direction
+- **linear-gradient(to left, red, yellow)-->It means go towards left right where first color will be red and second colour will be yellow**
+- **linear-gradient(270deg, red, yellow)-->It means go towards left right where first color will be red and second colour will be yellow**
 ## Example-1
 ```
 ////index.html
@@ -98,7 +100,6 @@ section {
   padding: 0;
   box-sizing: border-box;
 }
-
 section {
   width: 100%;
   height: 100vh;
