@@ -4,6 +4,7 @@
 - **linear-gradient(180deg, red, yellow)-->It will always work from top to bottom where first color will be red and second colour will be yellow)**
 - **linear-gradient(to bottom, red, yellow)-->It will always work from top to bottom where first color will be red and second colour will be yellow)**
 ![image](https://github.com/user-attachments/assets/49452aae-2e71-4bce-82b4-9025d05ae263)
+![image](https://github.com/user-attachments/assets/ed81aa83-4ef1-43a0-9238-719d655ded5f)
 ## Example-1
 ```
 ////index.html
