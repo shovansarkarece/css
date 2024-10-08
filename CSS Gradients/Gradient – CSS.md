@@ -320,8 +320,7 @@ background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);
 # Output
 ![image](https://github.com/user-attachments/assets/fbad578c-bc11-49f7-8a24-96b6fc89783f)
 # Add color overlay on image
-```
-  background-image: linear-gradient(
+- **background-image: linear-gradient(
      to right top,
       rgba(5, 25, 55, 0.6),//-->a is used for transparency(always use less than 1)
       rgba(0, 77, 122, 0.6),//-->a is used for transparency(always use less than 1)
@@ -329,11 +328,10 @@ background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);
      rgba(0, 191, 114, 0.6),//-->a is used for transparency(always use less than 1)
       rgba(168, 235, 18, 0.6)//-->a is used for transparency(always use less than 1)
     ),
->   url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
->  background-repeat: no-repeat;
-> background-size: cover;
-```
-## Example
+   url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   background-repeat: no-repeat;
+  background-size: cover;**
+## Example-1
 ```
 <!DOCTYPE html>
 <html lang="en">
