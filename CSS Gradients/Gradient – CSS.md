@@ -319,18 +319,20 @@ background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/fbad578c-bc11-49f7-8a24-96b6fc89783f)
-# Add color overlay on image
-- **background-image: linear-gradient(
-     to right top,
-      rgba(5, 25, 55, 0.6),//-->a is used for transparency(always use less than 1)
-      rgba(0, 77, 122, 0.6),//-->a is used for transparency(always use less than 1)
-     rgba(0, 135, 147, 0.6),//-->a is used for transparency(always use less than 1)
-     rgba(0, 191, 114, 0.6),//-->a is used for transparency(always use less than 1)
-      rgba(168, 235, 18, 0.6)//-->a is used for transparency(always use less than 1)
-    ),
+# Add color overlay on image(Basically using following code to make project)
+```
+ **background-image: linear-gradient(
+    to right top,
+    rgba(5, 25, 55, 0.6),//-->a is used for transparency(always use less than 1)
+    rgba(0, 77, 122, 0.6),//-->a is used for transparency(always use less than 1)
+    rgba(0, 135, 147, 0.6),//-->a is used for transparency(always use less than 1)
+    rgba(0, 191, 114, 0.6),//-->a is used for transparency(always use less than 1)
+    rgba(168, 235, 18, 0.6)//-->a is used for transparency(always use less than 1)
+   ),
    url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
    background-repeat: no-repeat;
   background-size: cover;**
+```
 ## Example-1
 ```
 <!DOCTYPE html>
@@ -376,9 +378,127 @@ section {
 
 # Explain the difference between linear gradients and radial gradients in CSS. When would you use one over the other?
 ## Linear gradients create a smooth transition along a straight line, such as from top to bottom or left to right. Radial gradients, on the other hand, create a circular transition from the center outward.We would use linear gradients for linear background effects like horizontal or vertical color transitions. Radial gradients are ideal for creating circular elements or radial backgrounds,such as buttons or circular divs.
-
-# Radial Gradient – CSS 
-## Radial gradients are ideal for creating circular elements or radial backgrounds,such as buttons or circular divs.
+# RADIAL GRADIENTS
+- **Radial gradients are ideal for creating circular elements or radial backgrounds,such as buttons or circular divs.**
+- **The radial-gradient() function sets a radial gradient as the background image.**
+- **A radial gradient is defined by its center.**
+- **To create a radial gradient you must define at least two color stops.**
+- **The shape parameter defines the shape. It can take the value circle or ellipse. The default value is ellipse.**
 ![image](https://github.com/user-attachments/assets/a9b311ab-b27f-46ab-82f5-3c7ca0da885a)
-# Gradient with Shape – CSS
-![image](https://github.com/user-attachments/assets/b03b37ab-966e-47db-9435-ebd64e637d05)
+## Example-1
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="radial-style.css" />
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////radial-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient( red, yellow, green);
+}
+```
+## Output
+![image](https://github.com/user-attachments/assets/a6224d74-4f01-4930-b058-8596364aacf5)
+## Example-2
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="radial-style.css" />
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////radial-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  height: 100vh;
+    background-image: radial-gradient(ellipse, red 20%, yellow 40%, green 40%);
+}
+```
+## Output
+![image](https://github.com/user-attachments/assets/f65c5ef1-e892-4c35-bdd8-5ab3df8a1a94)
+# Radial Gradient with Shape – CSS
+![image](https://github.com/user-attachments/assets/bde3301d-452f-4280-aa41-db3cd1fa4cd1)
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="radial-style.css" />
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////radial-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  height: 100vh;
+     background-image: radial-gradient(circle, red 20%, yellow 40%, green 40%);
+}
+```
+## Output
+![image](https://github.com/user-attachments/assets/b5734f9e-b146-42d5-90a3-528445b626f3)
+# Repeating radial gradient
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Style</title>
+    <!-- <link rel="stylesheet" href="linear-style.css" /> -->
+    <link rel="stylesheet" href="radial-style.css" />
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>
+////radial-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  height: 100vh;
+     background-image: repeating-radial-gradient(#ff5733, #ffc300, #a8df8e 250px);-->Here 250px is the repeating color
+}
+```
+## Output
+![image](https://github.com/user-attachments/assets/de7ddd53-cb58-4c05-aa9d-9512b5def084)
