@@ -5,7 +5,8 @@
 ##### Example-1
 ![image](https://github.com/user-attachments/assets/22a3b840-ab49-40e1-9694-c43b3e9c79e0)
 ##### Example-2
-![image](https://github.com/user-attachments/assets/1bcbd4b8-b113-4e04-a701-04caa572b777)
+![image](https://github.com/user-attachments/assets/b24ecfdd-2127-4c5b-bdfc-57670ad52fd2)
+
 
 
 /*? Child Selector (>): Selects an element that is a direct child of another element. */
