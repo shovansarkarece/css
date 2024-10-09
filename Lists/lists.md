@@ -378,7 +378,7 @@ li {
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/46ff8702-686e-48e2-a142-9e7ee0451a4b)
-## list-style-type:lower-alpha
+## list-style-type:lower-alpha/lower-latin
 ## Example-6
 ```
 /*Index.html*/
@@ -440,7 +440,7 @@ body {
   -o-border-radius: 10px;
 }
 ul {
-  list-style-type:lower-alpha;
+  list-style-type:lower-alpha/lower-latin;
 li {
   font-size: 32px;
   font-weight: 400;
