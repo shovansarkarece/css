@@ -5,11 +5,10 @@
 ##### Example-1
 ![image](https://github.com/user-attachments/assets/22a3b840-ab49-40e1-9694-c43b3e9c79e0)
 ##### Example-2
-![image](https://github.com/user-attachments/assets/b24ecfdd-2127-4c5b-bdfc-57670ad52fd2)
+![image](https://github.com/user-attachments/assets/c78b75f6-9531-4db1-819e-6582937069c2)
 
-
-
-/*? Child Selector (>): Selects an element that is a direct child of another element. */
+# Child Selector (>): 
+- **Selects an element that is a direct child of another element.**
 
 /*? Adjacent Sibling Selector (+): Selects an element that is immediately preceded by another element. */
 
