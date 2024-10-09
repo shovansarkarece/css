@@ -12,7 +12,10 @@
 #### Example-1
 ![image](https://github.com/user-attachments/assets/7784a401-c192-4ef3-a0ed-be36bfb8ac25)
 
-/*? Adjacent Sibling Selector (+): Selects an element that is immediately preceded by another element. */
+# Adjacent Sibling Selector (+): 
+- **Selects an element that is immediately preceded by another element.**
+#### Example-1
+![image](https://github.com/user-attachments/assets/c94dcda5-971f-4c87-a2ca-ed96d25c1101)
 
 /*? General Sibling Selector (~): Selects all elements that are siblings of another element and share the same parent. */
 
