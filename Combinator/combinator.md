@@ -9,6 +9,8 @@
 
 # Child Selector (>): 
 - **Selects an element that is a direct child of another element.**
+#### Example-1
+![image](https://github.com/user-attachments/assets/7784a401-c192-4ef3-a0ed-be36bfb8ac25)
 
 /*? Adjacent Sibling Selector (+): Selects an element that is immediately preceded by another element. */
 
