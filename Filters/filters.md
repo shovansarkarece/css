@@ -5,6 +5,8 @@
 - **Filters can be applied to images, backgrounds, and even entire sections of a webpage.**
 - **Experiment with filter values to create unique visual effects.**
 - **Be cautious with excessive use of filters, as they can significantly alter the appearance of elements.**
+## Most commonly used filter properties in CSS.
+![image](https://github.com/user-attachments/assets/93de9c04-0162-439f-91ba-45f872ffeb0d)
 
 ## Commonly Used Filter Functions
 - **(i)grayscale()**
