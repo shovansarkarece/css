@@ -17,6 +17,9 @@
 #### Example-1
 ![image](https://github.com/user-attachments/assets/c94dcda5-971f-4c87-a2ca-ed96d25c1101)
 
-/*? General Sibling Selector (~): Selects all elements that are siblings of another element and share the same parent. */
+# General Sibling Selector (~): 
+- **Selects all elements that are siblings of another element and share the same parent.**
+#### Example-1
+![image](https://github.com/user-attachments/assets/ef0cf5a1-516c-43b4-ad85-a50c1eac4756)
 
-/*? Universal Selector (*): Selects all elements. */
+## Universal Selector (*): Selects all elements.
