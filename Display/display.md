@@ -329,11 +329,11 @@ a:nth-of-type(2),
 - **2: How do you center an element horizontally using display: block;?**
 - **To center a display: block; element horizontally, you can set its left and right margins to auto.**
 
-/*? 4: What is the default behavior of display: inline; elements with regard to margin and padding? */
-/* display: inline; elements don't respect top and bottom margins or padding, only left and right. Also width and height is not accepted */
+- **4: What is the default behavior of display: inline; elements with regard to margin and padding?**
+- **display: inline; elements don't respect top and bottom margins or padding, only left and right. Also width and height is not accepted.*
 
-/*? 5: How can you make an inline element like a link or a span act like a block-level element? ⭐⭐*/
-/* You can apply display: block; or display: inline-block; to make an inline element behave like a block-level element. */
+- **5: How can you make an inline element like a link or a span act like a block-level element? ⭐⭐**
+- **You can apply display: block; or display: inline-block; to make an inline element behave like a block-level element.**
 
 /*? 6: What is the impact of applying display: block; to an anchor <a> element? */
 /* Applying display: block; to an anchor element allows you to set its width, height, and apply padding or margin. This is often used for creating custom-styled buttons. */
