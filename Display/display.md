@@ -1,6 +1,8 @@
 #  DISPLAY IN CSS  
+![image](https://github.com/user-attachments/assets/0f56459d-4e5b-4330-aca9-f891d469e6aa)
+
 - **Block-Level Elements:**
-- **display: block 👉 The block value makes the element a block-level element. Block-level elements create a new "block formatting context" and take up the full width available. 
+- **display: block 👉 The block value makes the element a block-level element. Block-level elements create a new "block formatting context" and take up the full width available.** 
 - **They start on a new line,pushing subsequent elements below them.**
 ## New Line Start: 
 - **They start on a new line in the webpage layout.**
