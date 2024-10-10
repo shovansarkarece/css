@@ -229,3 +229,111 @@ a:nth-of-type(2),
 ### Use Cases:
 - **Creating custom-styled buttons.**
 - **Displaying images with captions or descriptions next to them.**
+```
+/*Block Level Elements*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display-CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1 id="main-heading">CSS Display (Box Types)</h1>
+      <div>
+        <p>This is a block-level element.</p>
+        <p>This is a block-level element.</p>
+        <a href="#">Inline Level Element</a>
+        <a href="#">Register Now</a>
+        <!-- <br /> -->
+        <a class="inline-block-elem" href="#">Inline Level Element</a>
+        <a class="inline-block-elem" href="#">Register Now</a>
+      </div>
+    </section>
+  </body>
+</html>
+/*style.css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Urbanist;
+}
+body {
+  padding: 50px 100px;
+  background-color: hsla(0, 0%, 94%);
+}
+#main-heading {
+  color: #1e1403;
+  text-align: left;
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+p {
+  width: 500px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 30px 20px;
+  margin-bottom: 24px;
+}
+a {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+  /* width: 500px; */
+  /* height: 100px; */
+  padding: 15px 36px;
+  border: 1px solid red;
+  margin-top: 100px;
+  margin-right: 30px;
+   display: inline-block; 
+}
+/* this is just to for styling th background */
+p:nth-of-type(2),
+a:nth-of-type(2),
+.inline-block-elem:last-child {
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  display: none;
+}
+```
+### Output 
+![image](https://github.com/user-attachments/assets/a056279c-fd83-4cb0-842b-bf74956098d6)
+# Interview Question
+- **1: What does display: none; do to an element's accessibility?**
+- **It makes the element completely inaccessible to screen readers and keyboard navigation.**
+
+- **2: How do you center an element horizontally using display: block;?**
+- **To center a display: block; element horizontally, you can set its left and right margins to auto.**
+
+/*? 4: What is the default behavior of display: inline; elements with regard to margin and padding? */
+/* display: inline; elements don't respect top and bottom margins or padding, only left and right. Also width and height is not accepted */
+
+/*? 5: How can you make an inline element like a link or a span act like a block-level element? ⭐⭐*/
+/* You can apply display: block; or display: inline-block; to make an inline element behave like a block-level element. */
+
+/*? 6: What is the impact of applying display: block; to an anchor <a> element? */
+/* Applying display: block; to an anchor element allows you to set its width, height, and apply padding or margin. This is often used for creating custom-styled buttons. */
