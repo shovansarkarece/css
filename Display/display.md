@@ -27,7 +27,7 @@
 ### Use Cases:
 - **Styling text elements like links (<a>) or spans within paragraphs.**
 - **Displaying elements side by side within a paragraph.**
-### Inline-Block Elements: */
+### Inline-Block Elements:
 - **display: inline-block 👉  The inline-block value combines aspects of both block and inline. Elements with inline-block behave like inline elements but can have dimensions (width and height) and vertical alignment.**
 - **Mixed Behavior: They combine aspects of both inline and block elements.**
 - **Width and Height: You can set their dimensions (width and height).**
