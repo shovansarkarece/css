@@ -16,20 +16,17 @@
 - **Creating standalone elements like paragraphs, headings, divs, and dividers.**
 - **Structuring the main content of a webpage, such as articles or sections.** 
 
-
-/*todo Inline Elements: */
-
-/*? display: inline  👉 The inline value makes the element an inline-level element. Inline elements only take up as much width as necessary, and they do not create a new block formatting context. Inline elements can appear on the same line as other inline elements. */
-
-/* Inline Flow: They flow within the content and don't start on new lines.
-Space-Efficient: They take up only as much width as necessary.
-Side-by-Side: They can sit next to each other horizontally.
-Common Examples: Include links, spans, and emphasis tags.
-Text Enhancements: Often used for styling text or adding small inline elements. */
-
-/* Use Cases:
-Styling text elements like links (<a>) or spans within paragraphs.
-Displaying elements side by side within a paragraph. */
+### Inline Elements 
+### display: inline  
+- **👉 The inline value makes the element an inline-level element. Inline elements only take up as much width as necessary, and they do not create a new block formatting context. Inline elements can appear on the same line as other inline elements.**
+- **Inline Flow: They flow within the content and don't start on new lines.**
+- **Space-Efficient: They take up only as much width as necessary.**
+- **Side-by-Side: They can sit next to each other horizontally.**
+- **Common Examples: Include links, spans, and emphasis tags.**
+- **Text Enhancements: Often used for styling text or adding small inline elements.**
+### Use Cases:
+- **Styling text elements like links (<a>) or spans within paragraphs.**
+- **Displaying elements side by side within a paragraph.**
 
 /** ------------------------------------------------------------------------------------------------------ */
 
