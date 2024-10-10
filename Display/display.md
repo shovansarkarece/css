@@ -15,6 +15,101 @@
 ### Use Cases:
 - **Creating standalone elements like paragraphs, headings, divs, and dividers.**
 - **Structuring the main content of a webpage, such as articles or sections.** 
+```
+/*Block Level Elements*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display-CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1 id="main-heading">CSS Display (Box Types)</h1>
+      <div>
+        <p>This is a block-level element.</p>
+        <p>This is a block-level element.</p>
+        <a href="#">Inline Level Element</a>
+        <a href="#">Register Now</a>
+        <!-- <br /> -->
+        <a class="inline-block-elem" href="#">Inline Level Element</a>
+        <a class="inline-block-elem" href="#">Register Now</a>
+      </div>
+    </section>
+  </body>
+</html>
+/*style.css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Urbanist;
+}
+body {
+  padding: 50px 100px;
+  background-color: hsla(0, 0%, 94%);
+}
+#main-heading {
+  color: #1e1403;
+  text-align: left;
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+p {
+  width: 500px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 30px 20px;
+  margin-bottom: 24px;
+}
+a {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+  /* width: 500px; */
+  /* height: 100px; */
+  padding: 15px 36px;
+  border: 1px solid red;
+  margin-top: 100px;
+  margin-right: 30px;
+  /* display: inline-block; */
+  display: block;
+  /* display: inline; */
+}
+/* this is just to for styling th background */
+p:nth-of-type(2),
+a:nth-of-type(2),
+.inline-block-elem:last-child {
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  display: none;
+}
+```
+### Output 
+![image](https://github.com/user-attachments/assets/ca2aeb1e-f05a-4c14-b2b4-b041e891f4a6)
 
 ### Inline Elements 
 ### display: inline  
@@ -27,6 +122,102 @@
 ### Use Cases:
 - **Styling text elements like links (<a>) or spans within paragraphs.**
 - **Displaying elements side by side within a paragraph.**
+```
+/*Block Level Elements*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display-CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1 id="main-heading">CSS Display (Box Types)</h1>
+      <div>
+        <p>This is a block-level element.</p>
+        <p>This is a block-level element.</p>
+        <a href="#">Inline Level Element</a>
+        <a href="#">Register Now</a>
+        <!-- <br /> -->
+        <a class="inline-block-elem" href="#">Inline Level Element</a>
+        <a class="inline-block-elem" href="#">Register Now</a>
+      </div>
+    </section>
+  </body>
+</html>
+/*style.css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Urbanist;
+}
+body {
+  padding: 50px 100px;
+  background-color: hsla(0, 0%, 94%);
+}
+#main-heading {
+  color: #1e1403;
+  text-align: left;
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+p {
+  width: 500px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 30px 20px;
+  margin-bottom: 24px;
+}
+a {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+  /* width: 500px; */
+  /* height: 100px; */
+  padding: 15px 36px;
+  border: 1px solid red;
+  margin-top: 100px;
+  margin-right: 30px;
+  /* display: inline-block; */
+  /* display: block;*/
+  display: inline; 
+}
+/* this is just to for styling th background */
+p:nth-of-type(2),
+a:nth-of-type(2),
+.inline-block-elem:last-child {
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  display: none;
+}
+```
+### Output
+![image](https://github.com/user-attachments/assets/a056279c-fd83-4cb0-842b-bf74956098d6)
+
 ### Inline-Block Elements:
 - **display: inline-block 👉  The inline-block value combines aspects of both block and inline. Elements with inline-block behave like inline elements but can have dimensions (width and height) and vertical alignment.**
 - **Mixed Behavior: They combine aspects of both inline and block elements.**
