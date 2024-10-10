@@ -114,6 +114,7 @@ a:nth-of-type(2),
 ### Inline Elements 
 ### display: inline  
 - **👉 The inline value makes the element an inline-level element. Inline elements only take up as much width as necessary, and they do not create a new block formatting context. Inline elements can appear on the same line as other inline elements.**
+- **display: inline; elements don't respect top and bottom margins or padding, only left and right. Also width and height is not accepted.**
 - **Inline Flow: They flow within the content and don't start on new lines.**
 - **Space-Efficient: They take up only as much width as necessary.**
 - **Side-by-Side: They can sit next to each other horizontally.**
