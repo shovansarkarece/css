@@ -6,9 +6,10 @@
 - **They start on a new line in the webpage layout.**
 ## Full Width: 
 - **They often take up the entire width of their container.**
-No Side-by-Side: They don't sit next to each other horizontally.
-Common Examples: Include paragraphs, headings, lists, and containers.
-Vertical Stacking: They stack on top of each other, creating a vertical layout. */
+### No Side-by-Side: 
+- **They don't sit next to each other horizontally.**
+- **Common Examples: Include paragraphs, headings, lists, and containers.**
+- **Vertical Stacking: They stack on top of each other, creating a vertical layout.**
 
 /* Use Cases:
 Creating standalone elements like paragraphs, headings, divs, and dividers.
