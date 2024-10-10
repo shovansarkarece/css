@@ -10,10 +10,9 @@
 - **They don't sit next to each other horizontally.**
 - **Common Examples: Include paragraphs, headings, lists, and containers.**
 - **Vertical Stacking: They stack on top of each other, creating a vertical layout.**
-
-/* Use Cases:
-Creating standalone elements like paragraphs, headings, divs, and dividers.
-Structuring the main content of a webpage, such as articles or sections.  */
+### Use Cases:
+- **Creating standalone elements like paragraphs, headings, divs, and dividers.**
+- **Structuring the main content of a webpage, such as articles or sections.** 
 
 
 /*todo Inline Elements: */
