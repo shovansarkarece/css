@@ -35,5 +35,5 @@
 - **Space-Efficient: They take up only as much width as necessary.**
 - **Common Examples: Used for creating custom-styled buttons, images with captions,**
 ### Use Cases:
-- **Creating custom-styled buttons.
-- **Displaying images with captions or descriptions next to them. */
+- **Creating custom-styled buttons.**
+- **Displaying images with captions or descriptions next to them.**
