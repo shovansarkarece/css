@@ -4,3 +4,70 @@
 - **Positioned Elements: To use z-index, an element must have a position value other than static (e.g., relative, absolute, fixed, or sticky). Positioned elements can be moved in the stacking order using z-index.**
 - **Numeric Values:You can assign numeric values to z-index. Elements with higher numeric values will appear in front of elements with lower values.**
 - **Negative Values:You can also use negative values for z-index. Elements with lower (more negative) values will appear in front of elements with higher (less negative) values.**
+
+![image](https://github.com/user-attachments/assets/a520e67a-da66-4772-ad40-911c93cac416)
+# Example
+```
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist", sans-serif;
+}
+body {
+  display: grid;
+  place-items: center;
+}
+#main-heading {
+  font-size: 6.2rem;
+  color: #1e1403;
+  margin: 3rem 0;
+}
+/* box model css  */
+.parent-div {
+  width: 1000px;
+  height: 700px;
+  background-color: #5e9de9;
+  color: #fff;
+  /* border: 5px solid #003180; */
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 15px;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to right, #93edc7, #1cd8d2);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: grid;
+  place-items: center;
+  font-size: 3.2rem;
+  color: #003180;
+  position: absolute;
+}
+.child:nth-child(2),
+.child:nth-child(4) {
+  background: linear-gradient(to right, #3cd3ad, #4cb8c4);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.parent-div {
+  position: relative;
+}
+.child-2 {
+  /* z-index: 1; */
+  z-index: 3;
+}
+.child-3 {
+  z-index: 2;
+  /* z-index: 2; */
+}
+.child-1 {
+  z-index: 1;
+  /* z-index: 2; */
+}
+```
+### Output
+![image](https://github.com/user-attachments/assets/d3b7ac83-5870-4503-94b8-2c5a16343b82)
