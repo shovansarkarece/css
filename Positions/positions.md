@@ -6,7 +6,6 @@
 -- **If we want to move our child dev anywhere then keep that child div into parent div and always parent must be relative and child must be absolute.**
 ![image](https://github.com/user-attachments/assets/6d40f415-f357-47de-8b07-5a2b55579462)
 ## Some example of ```parent's position:relative chil'd position:absolute``
-/*? Definition: Elements with position: relative; are positioned relative to their normal position in the document flow. */
 ### Example-1
 ![image](https://github.com/user-attachments/assets/8d7ade6a-291b-4965-a78a-24bce2d62179)
 ### Example-2
@@ -53,6 +52,4 @@
 ### 2.How can you ensure that an element with position: absolute; is positioned relative to the entire viewport? */
 - **To position an element with position: absolute; relative to the viewport, ensure that none of its ancestors have a position property set to relative, absolute, fixed, or sticky. This way, it will use the viewport as its containing block.**
 
-/*? position: absolute; */
-/*? Definition: Elements with position: absolute; are positioned relative to the nearest positioned ancestor or the initial containing block. */
 
