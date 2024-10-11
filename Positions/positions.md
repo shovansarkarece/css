@@ -137,4 +137,80 @@
 - **Never,ever it will not sustain when the scroll down or up it's last point.**
 > মানে যদি আমরা scroll করার সময় যেই particular div এ যেকোন একটা element এ আমরা position sticky apply করি সেক্ষেত্রে ঐ element টা ততক্ষণ sticky থাকবে যতক্ষণ আমাদের ঐ particular div এর scroll up/down last
 > point এ এসে না পৌঁছায়,যখনি সে last point এ এসে div টা পৌছাবে ঠিক তখনি তাকে সাথে করে scroll up/down করে নিয়ে চলে যাবে।
+### Example-1
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 62.5%;
+        font-family: "Urbanist", sans-serif;
+      }
+
+      body {
+        display: grid;
+        place-items: center;
+      }
+      .main-section {
+        width: 100%;
+        text-align: center;
+        background-color: #1a2980;
+        color: #fff;
+        display: block;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        /* position fixed start here  */
+        position: static;
+        top: 0;
+      }
+      #main-heading {
+        font-size: 6.2rem;
+        margin: 3rem 0;
+      }
+      .section-full {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to right, #26d0ce, #1a2980);
+      }
+      .section-full:nth-child(even) {
+        background: linear-gradient(to right, #56b4d3, #348f50);
+      }
+      /* Also again same for the Position Fixed  */
+      /* for sticky  */
+      .section-full a {
+        padding: 16px 32px;
+        background-color: #fff;
+        color: #1a2980;
+        font-size: 24px;
+        display: inline-block;
+        position: fixed;
+        /* position: sticky; */
+        top: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-section">
+      <h1 id="main-heading">CSS Positions - Fixed</h1>
+    </div>
+    <hr />
+    <div class="section-full"></div>
+    <div class="section-full"><a href="#">Join WhatsApp Now</a></div>
+    <div class="section-full"></div>
+    <div class="section-full"></div>
+  </body>
+</html>
+```
+### Output
+https://github.com/user-attachments/assets/9f09cfbb-dca9-4eb2-92c6-1aabc3cf14c4
 
