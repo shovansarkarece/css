@@ -71,3 +71,6 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/d3b7ac83-5870-4503-94b8-2c5a16343b82)
+# INTERVIEW IMPORTANT QUESTIONS
+- **1:What is the purpose of the z-index property in position: relative; elements?**
+- **z-index controls the stacking order of elements with position: relative;. It determines which elements appear in front when they overlap. A higher z-index value brings an element to the front.**
