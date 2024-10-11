@@ -129,7 +129,7 @@
 </html>
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/259cd149-cab4-41e8-9cd8-6c2142eba449)
+![image](https://github.com/user-attachments/assets/3bacb0ac-01e3-4dec-aa41-1d3b407b1cfe)
 # Sticky (position: sticky;)
 - **Elements with position: sticky; are initially positioned according to the normal flow, but they become "sticky" and stay within the viewport once they reach a specified scroll position.**
 - **You can use the top, right, bottom, and left properties to set the stickiness behavior.**
