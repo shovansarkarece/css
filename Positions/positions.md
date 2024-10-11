@@ -5,7 +5,7 @@
 ### Position: relative; 
 -- **If we want to move our child dev anywhere then keep that child div into parent div and always parent must be relative and child must be absolute.**
 ![image](https://github.com/user-attachments/assets/6d40f415-f357-47de-8b07-5a2b55579462)
-
+## Some example of ```parent's position:relative chil'd position:absolute``
 /*? Definition: Elements with position: relative; are positioned relative to their normal position in the document flow. */
 
 /*TODO New Properties Unlocked  */
