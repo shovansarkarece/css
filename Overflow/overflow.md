@@ -1,4 +1,7 @@
 # OVERFLOW IN CSS
+![image](https://github.com/user-attachments/assets/4350f1a3-adbd-4bee-9538-b3942272d23f)
+# Example of Overflow
+![image](https://github.com/user-attachments/assets/3ab316b8-2407-4c8a-a167-d3f97010ea26)
 
 - **The overflow property in CSS is used to control how content overflows its containing element when it doesn't fit within the available space. It's a useful property for handling content that exceeds its container's dimensions.**
 
