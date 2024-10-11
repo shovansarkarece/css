@@ -50,6 +50,17 @@
 ### 1.What is the default positioning of an element with position: absolute;? ⭐⭐ */
 - **By default, an element with position: absolute; is positioned at the top-left corner of its containing block without any offsets.**
 ### 2.How can you ensure that an element with position: absolute; is positioned relative to the entire viewport? */
-- **To position an element with position: absolute; relative to the viewport, ensure that none of its ancestors have a position property set to relative, absolute, fixed, or sticky. This way, it will use the viewport as its containing block.**
-
+- **To position an element with position: absolute; relative to the viewport, ensure that none of its ancestors have a position property set to relative, absolute, fixed, or sticky. This way, it will use the viewport as its containing block.If we want to move our child dev anywhere then keep that child div into parent div and always parent must be relative and child must be absolute.**
+# Fixed (position: fixed;)
+- **Elements with position: fixed; are positioned relative to the viewport, so they remain in the same position even when the page is scrolled.**
+- **You can use the top, right, bottom, and left properties to specify the exact position.**
+### Output
+![image](https://github.com/user-attachments/assets/259cd149-cab4-41e8-9cd8-6c2142eba449)
+# Sticky (position: sticky;)
+- **Elements with position: sticky; are initially positioned according to the normal flow, but they become "sticky" and stay within the viewport once they reach a specified scroll position.**
+- **You can use the top, right, bottom, and left properties to set the stickiness behavior.**
+- **If in any div any element's position is sticky it means it will be sticky in it's position but when that corresponding div will scrrol up or down it's last point then it will also go with the flow of that div**
+- **Never,ever it will not sustain when the scroll down or up it's last point.**
+> মানে যদি আমরা scroll করার সময় যেই particular div এ যেকোন একটা element এ আমরা position sticky apply করি সেক্ষেত্রে ঐ element টা ততক্ষণ sticky থাকবে যতক্ষণ আমাদের ঐ particular div এর scroll up/down last
+> point এ এসে না পৌঁছায়,যখনি সে last point এ এসে div টা পৌছাবে ঠিক তখনি তাকে সাথে করে scroll up/down করে নিয়ে চলে যাবে।
 
