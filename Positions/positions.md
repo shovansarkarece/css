@@ -17,14 +17,34 @@
 ![image](https://github.com/user-attachments/assets/d54117e2-e3c3-4e6b-a298-8f8ebb027eaf)
 ### Example-5
 ![image](https://github.com/user-attachments/assets/73f39ae2-fc62-4370-b515-4e173c3601c7)
-/*TODO New Properties Unlocked  */
-/*? Properties: top, right, bottom, left: Offset the element from its normal position. */
-
+### Example-6
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Absolute</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="main-heading">CSS Positions</h1>
+    <section class="parent-div">
+      <div class="child child-1">child 1</div>
+      <div class="child child-2">child 2</div>
+      <div class="child child-3">child 3</div>
+      <div class="child child-4">child 4</div>
+      <div class="child child-5">child 5</div>
+    </section>
+  </body>
+</html>
+```
 /*? position: absolute; */
 /*? Definition: Elements with position: absolute; are positioned relative to the nearest positioned ancestor or the initial containing block. */
 
-
-
-
-
-![image](https://github.com/user-attachments/assets/05c0991f-ecc7-4bf0-845e-790d2798253e)
