@@ -47,6 +47,7 @@
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/e3b05103-b448-4838-a58d-2058d9fe237a)
+# Interview Question
 ### 1.What is the default positioning of an element with position: absolute;? ⭐⭐ */
 - **By default, an element with position: absolute; is positioned at the top-left corner of its containing block without any offsets.**
 ### 2.How can you ensure that an element with position: absolute; is positioned relative to the entire viewport? */
