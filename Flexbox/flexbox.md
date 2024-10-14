@@ -844,6 +844,8 @@ body {
 #### a)order:
 - **Determines the order in which a flex item appears relative to other flex items within the container.**
 - **Lower values come first.**
+#### Example:order
+![image](https://github.com/user-attachments/assets/2767a23a-6a3f-4d9c-a350-2dc3f5454d8e)
 
 #### b)flex-grow:
 
