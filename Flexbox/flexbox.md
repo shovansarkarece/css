@@ -25,3 +25,6 @@
   flex-direction: row; /* Horizontal main axis (default) */
 }
 ```
+- **flex-direction:column**
+
+![image](https://github.com/user-attachments/assets/d4697a3c-70ab-4cf6-8134-7a8a681213bc)
