@@ -76,3 +76,7 @@
 - **align-items: end**
 
 ![image](https://github.com/user-attachments/assets/07a62c3a-5e14-4b46-8ed7-ec0d69fbb993)
+
+- **align-items: center**
+
+![image](https://github.com/user-attachments/assets/32fab510-ec93-47f5-9bfc-0ce2df76c9d8)
