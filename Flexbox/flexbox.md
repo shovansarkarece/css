@@ -115,7 +115,7 @@ flex-direction: row;
 
 ![image](https://github.com/user-attachments/assets/d4697a3c-70ab-4cf6-8134-7a8a681213bc)
 
-#### Example-1
+#### Example-1(display: flex;flex-direction: row;)
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -166,13 +166,6 @@ body {
   height: 600px;
 }
 .flex-container {
-/* when we use 
-disply:flex,
-flex-direction: row;
-flex-direction: row-reverse; 
-flex-direction:column;
-flex-direction: column-reverse;
-then uncomment below code*/
   width: 60%;
   height: 600px;
   margin: 0 auto;
