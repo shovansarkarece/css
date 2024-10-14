@@ -1017,6 +1017,8 @@ flex-direction: row;
 ```
 #### Output:
 ![image](https://github.com/user-attachments/assets/6ecee2df-c5ff-4e5d-a511-988de6aaca5a)
+### Example:flex-shrink
+![image](https://github.com/user-attachments/assets/c3630b20-4e83-487c-8446-765bc0b6393d)
 
 #### d) flex-basis:
 
