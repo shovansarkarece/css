@@ -56,3 +56,10 @@
 - **justify-content:space-between**
   
 ![image](https://github.com/user-attachments/assets/b99bd807-df24-4333-b3e0-f7dec0721155)
+
+- **4)Align Items (align-items):
+
+![image](https://github.com/user-attachments/assets/50d551c1-bc0f-40d1-9840-850f32a56beb)
+
+- **align-items aligns flex items along the cross axis.**
+- **Values include flex-start, flex-end, center, stretch, and baseline.**
