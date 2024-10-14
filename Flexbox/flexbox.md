@@ -45,4 +45,9 @@
 ```
 #### Example
 - **justify-content: start**
+ 
 ![image](https://github.com/user-attachments/assets/01703b19-fec1-42cc-b26a-d0df40747f2c)
+- **justify-content: center**
+
+![image](https://github.com/user-attachments/assets/dcdf37f9-4d84-4e3d-b13f-3be72105ec7a)
+
