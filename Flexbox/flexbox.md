@@ -14,4 +14,5 @@
 # Graphical representation of main axis vs cross axis
 - **Main Axis and Cross Axis:**
 - **In a flex container, one axis is considered the main axis, and the other is the cross axis. You can set the main axis to be either horizontal (row) or vertical (column).**
+
 ![image](https://github.com/user-attachments/assets/14ca2d2f-90fc-4e0a-b955-8c8cf8fc1708)
