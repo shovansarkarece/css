@@ -12,7 +12,7 @@
      display: flex;
 }
 ```
-#### Example-1(display: flex;flex-direction: row;)
+#### Example-1(display: flex;)
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -88,7 +88,8 @@ flex-direction: row;
 }
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/7e1c7bdb-c9ae-4a4e-b8e1-9cd3b1f38e59)
+![image](https://github.com/user-attachments/assets/87653346-fb42-49f6-83fe-d4f34c847463)
+
 
 # Graphical representation of main axis vs cross axis
 - **Main Axis and Cross Axis:**
