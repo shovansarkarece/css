@@ -33,3 +33,6 @@
 - **flex-direction:column**
 
 ![image](https://github.com/user-attachments/assets/d4697a3c-70ab-4cf6-8134-7a8a681213bc)
+- **3)Justify Content (justify-content): justify-content aligns flex items along the main axis.**
+![image](https://github.com/user-attachments/assets/35b7c9d2-4eae-4ad3-8b34-63f2a3d4d406)
+- **Values include flex-start, flex-end, center, space-between, and space-around.**
