@@ -18,13 +18,16 @@
 ![image](https://github.com/user-attachments/assets/14ca2d2f-90fc-4e0a-b955-8c8cf8fc1708)
 
 - **2)Flex Direction (flex-direction): Use flex-direction to specify the direction to either main axis or cross-axis.**
+![image](https://github.com/user-attachments/assets/6f10ec3b-c695-4ac9-a376-b5e717b80994)
+
 - **Values: row, row-reverse, column, column-reverse.**
+- **Items display in a row (the flex-direction property's default is row).**
 - **If the flex-direction:row then horizontal will be main-axis.** 
 - **if flex-direction:column the vertical part will be main-axis and horizontal axis become the cross axis.**
 - Syantax:
 ```
-.flex-container {
-  flex-direction: row; /* Horizontal main axis (default) */
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
 - **flex-direction:column**
