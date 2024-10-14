@@ -11,4 +11,5 @@
      display: flex;
 }
 ```
-
+# Graphical representation of main axis vs cross axis
+![image](https://github.com/user-attachments/assets/14ca2d2f-90fc-4e0a-b955-8c8cf8fc1708)
