@@ -271,8 +271,8 @@ li {
 - **The :last-child pseudo-class selects an element if it's the last child within its parent element. It doesn't work if there are other elements after it within the same parent.**
 ###
 - **The :first-child pseudo-class works similarly to :last-child, but it selects the first child element within its parent. Just like :last-child, it will only select an element if it's the first child and not if there are other elements before it within the same parent.**
-
-
+### Output
+![image](https://github.com/user-attachments/assets/348663f2-45a0-4ab2-9d52-19209c6ec553)
 
 
 
