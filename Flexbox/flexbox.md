@@ -808,7 +808,7 @@ body {
  
 ![image](https://github.com/user-attachments/assets/189becd8-e757-4d51-a1ce-caef1115baad)
 
-- **5) flex-wrap:**
+### 5) flex-wrap:**
 - **Specifies whether flex items should wrap to the next line when they overflow the container.**
 - **By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.**
 - **Values: nowrap (default), wrap, wrap-reverse.**
@@ -828,6 +828,7 @@ body {
 - **6) align-content:**
 - **We can only use align-content when we specifically use flex-wrap, neither it is impossible to use.** 
 - **Aligns multiple lines of flex items when there is extra space along the cross axis.**
+- **This property only takes effect on multi-line flexible containers, where flex-wrap is set to either wrap or wrap-reverse).**
 - **Values: flex-start, flex-end, center, space-between, space-around, stretch.**
 - **align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end ; always apply to parent not to children.**
 - **Syntax:**
