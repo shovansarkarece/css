@@ -838,23 +838,99 @@ body {
 ```
 ![image](https://github.com/user-attachments/assets/3c4ed7ae-515c-4f9f-888e-d5a73a79e82a)
 
-#### Above all property applied on parent but below properties will be applied in children only.
-/** ------------- Flex Item Properties (children) ------------ */
-/*? a. order:
-- Determines the order in which a flex item appears relative to other flex items within the container.
-- Lower values come first. */
+## Above all property applied on parent but below properties will be applied in children only.
+# Flex Item Properties (children)
+#### a)order:
+- **Determines the order in which a flex item appears relative to other flex items within the container.**
+- **Lower values come first.**
 
-/*? b. flex-grow:
-- Specifies how much a flex item should grow to fill available space along the main axis.
-- Default value is 0, meaning it won't grow. */
+#### b)flex-grow:
+- **Specifies how much a flex item should grow to fill available space along the main axis.**
+- **Default value is 0, meaning it won't grow.**
+- **This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion.**
+- **If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children.**
+#### Example-flex-grow
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="main-heading">CSS FlexBox (Flexible Box Layout)</h1>
+    <hr />
+    <br />
+    <section class="flex-container">
+      <div class="item item-1">item 1</div>
+      <div class="item item-2">item 2</div>
+      <div class="item item-3">item 3</div>
+      <div class="item item-4">item 4</div>
+    </section>
+  </body>
+</html>
+/*style.css*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist", sans-serif;
+}
 
-/*? c. flex-shrink:
-- Specifies how much a flex item should shrink when there isn't enough space along the main axis.
-- Default value is 1, meaning it will shrink. */
+body {
+  display: grid;
+  place-items: center;
+  background-color: hsl(0, 0%, 96%);
+}
+
+#main-heading {
+  font-size: 6.2rem;
+  color: #1e1403;
+  margin: 3rem 0;
+}
+
+.flex-container {
+  width: 60%;
+  height: 600px;
+}
+.flex-container {
+  width: 60%;
+  height: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  color: #fff;
+  /* flexbox container properties */
+  display: flex;
+flex-direction: row;
+ justify-content: start;
+.item{
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to right top, #004d7a, #00bf72, #a8eb12);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  font-size: 24px;
+}
+.item-2 {
+  flex-grow: 1;
+}
+```
+#### Output:
+![image](https://github.com/user-attachments/assets/fd3218a9-6ff9-4d73-8383-36733eb9b8af)
+
+#### c)flex-shrink:
+- **Specifies how much a flex item should shrink when there isn't enough space along the main axis.**
+- **Default value is 1, meaning it will shrink.**
 
 /*? d. flex-basis:
-- Defines the initial size of a flex item along the main axis.
-- Default value is auto, which means the item's size is determined by its content. */
+- **Defines the initial size of a flex item along the main axis.**
+- **Default value is auto, which means the item's size is determined by its content.**
 
 /*? e. flex (Shorthand for flex-grow, flex-shrink, and flex-basis):
 - Combines the three flex item properties in one declaration. */
