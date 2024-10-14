@@ -114,6 +114,87 @@ flex-direction: row;
 - **flex-direction:column**
 
 ![image](https://github.com/user-attachments/assets/d4697a3c-70ab-4cf6-8134-7a8a681213bc)
+
+#### Example-1
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="main-heading">CSS FlexBox (Flexible Box Layout)</h1>
+    <hr />
+    <br />
+    <section class="flex-container">
+      <div class="item item-1">item 1</div>
+      <div class="item item-2">item 2</div>
+      <div class="item item-3">item 3</div>
+      <div class="item item-4">item 4</div>
+    </section>
+  </body>
+</html>
+/*style.css*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: hsl(0, 0%, 96%);
+}
+
+#main-heading {
+  font-size: 6.2rem;
+  color: #1e1403;
+  margin: 3rem 0;
+}
+
+.flex-container {
+  width: 60%;
+  height: 600px;
+}
+.flex-container {
+/* when we use 
+disply:flex,
+flex-direction: row;
+flex-direction: row-reverse; 
+flex-direction:column;
+flex-direction: column-reverse;
+then uncomment below code*/
+  width: 60%;
+  height: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  color: #fff;
+  /* flexbox container properties */
+  display: flex;
+flex-direction: row;
+.item{
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to right top, #004d7a, #00bf72, #a8eb12);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  font-size: 24px;
+}
+```
+#### Output:
+![image](https://github.com/user-attachments/assets/428346eb-9a82-4379-bdeb-bc065486c58f)
+
+
+
 - **3)Justify Content (justify-content): justify-content aligns flex items along the main axis means horizontally.**
 - **Values include flex-start, flex-end, center, space-between, and space-around.**
 - **justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; always apply to parent not to children**
