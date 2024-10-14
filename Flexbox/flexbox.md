@@ -5,6 +5,7 @@
 
 - **1)Flex Container (display: flex;):**
 - **To create a flexbox layout, you need a flex container. Apply display: flex; to the container element.**
+- **display:flex always apply on parent not apply in children**
 - Syantax:
 ```
 .flex-container {
@@ -24,6 +25,7 @@
 - **Items display in a row (the flex-direction property's default is row).**
 - **If the flex-direction:row then horizontal will be main-axis.** 
 - **if flex-direction:column the vertical part will be main-axis and horizontal axis become the cross axis.**
+- - **flex-direction: row | row-reverse | column | column-reverse; always apply to parent not to children**
 - Syntax:
 ```
 .container {
@@ -35,6 +37,7 @@
 ![image](https://github.com/user-attachments/assets/d4697a3c-70ab-4cf6-8134-7a8a681213bc)
 - **3)Justify Content (justify-content): justify-content aligns flex items along the main axis means horizontally.**
 - **Values include flex-start, flex-end, center, space-between, and space-around.**
+- **justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; always apply to parent not to children**
 
 ![image](https://github.com/user-attachments/assets/35b7c9d2-4eae-4ad3-8b34-63f2a3d4d406)
 - **Syntax:**
@@ -58,6 +61,7 @@
 ![image](https://github.com/user-attachments/assets/b99bd807-df24-4333-b3e0-f7dec0721155)
 
 - **4)Align Items (align-items):**
+- - **align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start ; always apply to parent not to children**
 
 ![image](https://github.com/user-attachments/assets/50d551c1-bc0f-40d1-9840-850f32a56beb)
 - **Syntax:**
@@ -95,6 +99,7 @@
 - **nowrap (default): all flex items will be on one line**
 - **wrap: flex items will wrap onto multiple lines, from top to bottom.**
 - **wrap-reverse: flex items will wrap onto multiple lines from bottom to top.**
+- **flex-wrap: nowrap | wrap | wrap-reverse; always apply to parent not to children.**
 - **Syntax:**
 ```
 .container {
@@ -108,6 +113,7 @@
 - **We can only use align-content when we specifically use flex-wrap, neither it is impossible to use.** 
 - **Aligns multiple lines of flex items when there is extra space along the cross axis.**
 - **Values: flex-start, flex-end, center, space-between, space-around, stretch.**
+- **align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end ; always apply to parent not to children.**
 - **Syntax:**
 ```
 .container {
