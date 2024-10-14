@@ -84,3 +84,6 @@
 - **1: How do you center a div or text both horizontally and vertically using Flexbox? ⭐⭐⭐⭐⭐**
 - **To center items horizontally, you can use justify-content: center; on the flex container.**
 - **To center items vertically, you can use align-items: center; on the flex container.**
+- **We can use both ```justify-content: center;align-items: center;``` to center any element horizontally and vertically.**
+ 
+![image](https://github.com/user-attachments/assets/189becd8-e757-4d51-a1ce-caef1115baad)
