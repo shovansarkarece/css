@@ -1106,6 +1106,9 @@ flex-direction: row;
 ```
 #### Output
 ![image](https://github.com/user-attachments/assets/48717248-a438-4a2b-ae53-93680f40c736)
+### Example-without flex-basis
+![image](https://github.com/user-attachments/assets/b94a28ed-030f-4010-a552-a470ff6953ce)
+
 ### Example-flex-basis
 ![image](https://github.com/user-attachments/assets/bcfa289a-09e9-4644-ab92-04d911628c3a)
 
