@@ -37,9 +37,11 @@
 - **Values include flex-start, flex-end, center, space-between, and space-around.**
 
 ![image](https://github.com/user-attachments/assets/35b7c9d2-4eae-4ad3-8b34-63f2a3d4d406)
-- Syantax:
+- Syntax:
 ```
 .container {
   justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
 }
 ```
+
+![image](https://github.com/user-attachments/assets/01703b19-fec1-42cc-b26a-d0df40747f2c)
