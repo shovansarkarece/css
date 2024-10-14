@@ -16,3 +16,12 @@
 - **In a flex container, one axis is considered the main axis, and the other is the cross axis. You can set the main axis to be either horizontal (row) or vertical (column).**
 
 ![image](https://github.com/user-attachments/assets/14ca2d2f-90fc-4e0a-b955-8c8cf8fc1708)
+
+- **2)Flex Direction (flex-direction): Use flex-direction to specify the direction to either main axis or cross-axis.**
+- **Values: row, row-reverse, column, column-reverse.**
+- Syantax:
+```
+.flex-container {
+  flex-direction: row; /* Horizontal main axis (default) */
+}
+```
