@@ -1015,6 +1015,8 @@ flex-direction: row;
 ![image](https://github.com/user-attachments/assets/6ecee2df-c5ff-4e5d-a511-988de6aaca5a)
 
 #### d) flex-basis:
+
+![image](https://github.com/user-attachments/assets/d40a8de9-4b01-4fb9-b842-d5fbd5570972)
 - **Defines the initial size of a flex item along the main axis.**
 - **Default value is auto, which means the item's size is determined by its content.**
 - **This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.)**
@@ -1096,7 +1098,6 @@ flex-direction: row;
   flex-basis: 200px;
 }
 ```
-![image](https://github.com/user-attachments/assets/d40a8de9-4b01-4fb9-b842-d5fbd5570972)
 
 #### e)align-self:
 - **Overrides the align-items property for an individual flex item.**
