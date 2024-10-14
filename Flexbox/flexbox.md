@@ -845,8 +845,12 @@ body {
 - **Lower values come first.**
 
 #### b)flex-grow:
+
+![image](https://github.com/user-attachments/assets/fa265a73-0b8a-4b89-b377-bbff9a6176de)
+
 - **Specifies how much a flex item should grow to fill available space along the main axis.**
 - **Default value is 0, meaning it won't grow.**
+- - **Negative numbers are invalid.**
 - **This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion.**
 - **If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children.**
 #### Example-flex-grow
