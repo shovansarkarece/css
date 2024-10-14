@@ -928,7 +928,8 @@ flex-direction: row;
 ```
 #### Output:
 ![image](https://github.com/user-attachments/assets/fd3218a9-6ff9-4d73-8383-36733eb9b8af)
-
+#### Example-flex-grow
+![image](https://github.com/user-attachments/assets/961e0f0c-4d24-49d5-bf89-d6363131d3cd)
 #### c)flex-shrink:
 - **Specifies how much a flex item should shrink when there isn't enough space along the main axis.**
 - **Default value is 1, meaning it will shrink.**
