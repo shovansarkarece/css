@@ -19,8 +19,8 @@
 
 - **2)Flex Direction (flex-direction): Use flex-direction to specify the direction to either main axis or cross-axis.**
 - **Values: row, row-reverse, column, column-reverse.**
-- **If the flex-direction:row then horizontal will be main-axis. 
-- **if flex-direction:column the vertical part will be main-axis and horizontal axis become the cross axis
+- **If the flex-direction:row then horizontal will be main-axis.** 
+- **if flex-direction:column the vertical part will be main-axis and horizontal axis become the cross axis.**
 - Syantax:
 ```
 .flex-container {
