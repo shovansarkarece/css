@@ -1198,5 +1198,13 @@ flex-direction: row;
 ![image](https://github.com/user-attachments/assets/231d651e-6f05-483d-ba8b-f7fa506b9097)
 
 
-/*? e. flex (Shorthand for flex-grow, flex-shrink, and flex-basis):
-- Combines the three flex item properties in one declaration. */
+### e)flex (Shorthand for flex-grow, flex-shrink, and flex-basis):
+- **This is the shorthand for flex-grow, flex-shrink and flex-basis combined.**
+- **The second and third parameters (flex-shrink and flex-basis) are optional.**
+- **The default is 0 1 auto, but if you set it with a single number value, like flex: 5;, that changes the flex-basis to 0%, so it’s like setting flex-grow: 5; flex-shrink: 1; flex-basis: 0%;.**
+- **Syntax:**
+```
+.item {
+  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+}
+```
