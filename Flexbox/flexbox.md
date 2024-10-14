@@ -44,10 +44,11 @@
 }
 ```
 #### Example
-- **justify-content: start**
+- **justify-content: flex-start/start**
  
 ![image](https://github.com/user-attachments/assets/01703b19-fec1-42cc-b26a-d0df40747f2c)
 - **justify-content: center**
 
 ![image](https://github.com/user-attachments/assets/dcdf37f9-4d84-4e3d-b13f-3be72105ec7a)
-
+- **justify-content: flex-end/end**
+![image](https://github.com/user-attachments/assets/03ee4d59-c85f-4d1a-9916-94f5d3ce8556)
