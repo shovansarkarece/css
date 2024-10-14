@@ -3,7 +3,7 @@
 # Flex Container Properties (Parent) 
 ![image](https://github.com/user-attachments/assets/b2ccb40a-d802-4396-9c98-86968708f233)
 
-- **1)Flex Container (display: flex;):**
+#### 1)Flex Container (display: flex;):
 - **To create a flexbox layout, you need a flex container. Apply display: flex; to the container element.**
 - **display:flex always apply on parent not apply in children**
 - Syantax:
@@ -87,17 +87,17 @@ flex-direction: row;
   font-size: 24px;
 }
 ```
-### Output:
+#### Output:
 ![image](https://github.com/user-attachments/assets/87653346-fb42-49f6-83fe-d4f34c847463)
 
 
-# Graphical representation of main axis vs cross axis
+#### Graphical representation of main axis vs cross axis
 - **Main Axis and Cross Axis:**
 - **In a flex container, one axis is considered the main axis, and the other is the cross axis. You can set the main axis to be either horizontal (row) or vertical (column).**
 
 ![image](https://github.com/user-attachments/assets/14ca2d2f-90fc-4e0a-b955-8c8cf8fc1708)
 
-- **2)Flex Direction (flex-direction): Use flex-direction to specify the direction to either main axis or cross-axis.**
+#### 2)Flex Direction (flex-direction): Use flex-direction to specify the direction to either main axis or cross-axis.
 ![image](https://github.com/user-attachments/assets/6f10ec3b-c695-4ac9-a376-b5e717b80994)
 
 - **Values: row, row-reverse, column, column-reverse.**
@@ -255,7 +255,7 @@ flex-direction: row-reverse;
 ```
 #### Output:
 ![image](https://github.com/user-attachments/assets/ef6f1c69-f94c-439f-a324-2330a1c4f3cc)
-#### Example-2(display: flex;flex-direction:column;)
+#### Example-3(display: flex;flex-direction:column;)
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -325,7 +325,7 @@ flex-direction: column;
 ```
 #### Output:
 ![image](https://github.com/user-attachments/assets/dcfe3de4-2f78-48ad-97f4-0432b9e6df3f)
-#### Example-2(display: flex;flex-direction:column-reverse;)
+#### Example-4(display: flex;flex-direction:column-reverse;)
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -396,9 +396,7 @@ flex-direction:column-reverse;
 #### Output:
 ![image](https://github.com/user-attachments/assets/4d06a021-eb7e-4e68-9e07-576144fbc8a4)
 
-
-
-- **3)Justify Content (justify-content): justify-content aligns flex items along the main axis means horizontally.**
+#### 3)Justify Content (justify-content): justify-content aligns flex items along the main axis means horizontally.
 - **Values include flex-start, flex-end, center, space-between, and space-around.**
 - **justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; always apply to parent not to children**
 
@@ -409,16 +407,153 @@ flex-direction:column-reverse;
   justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
 }
 ```
-#### Example
-- **justify-content: flex-start/start**
- 
 ![image](https://github.com/user-attachments/assets/01703b19-fec1-42cc-b26a-d0df40747f2c)
+#### Example-1(display: flex; justify-content: flex-start;)-->flex-start and start both are same
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="main-heading">CSS FlexBox (Flexible Box Layout)</h1>
+    <hr />
+    <br />
+    <section class="flex-container">
+      <div class="item item-1">item 1</div>
+      <div class="item item-2">item 2</div>
+      <div class="item item-3">item 3</div>
+      <div class="item item-4">item 4</div>
+    </section>
+  </body>
+</html>
+/*style.css*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: hsl(0, 0%, 96%);
+}
+
+#main-heading {
+  font-size: 6.2rem;
+  color: #1e1403;
+  margin: 3rem 0;
+}
+
+.flex-container {
+  width: 60%;
+  height: 600px;
+}
+.flex-container {
+  width: 60%;
+  height: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  color: #fff;
+  /* flexbox container properties */
+  display: flex;
+ justify-content: flex-start;/*flex-start and start both are same*/
+.item{
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to right top, #004d7a, #00bf72, #a8eb12);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  font-size: 24px;
+}
+```
+#### Output:
+![image](https://github.com/user-attachments/assets/dd98c9d0-38ce-4fa8-8a12-180a7b567a53)
+
 - **justify-content: center**
 
 ![image](https://github.com/user-attachments/assets/dcdf37f9-4d84-4e3d-b13f-3be72105ec7a)
-- **justify-content: flex-end/end**
-
+#### justify-content: flex-end/end
 ![image](https://github.com/user-attachments/assets/03ee4d59-c85f-4d1a-9916-94f5d3ce8556)
+#### Example-2(display: flex; justify-content: flex-end;)-->flex-start and start both are same
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="main-heading">CSS FlexBox (Flexible Box Layout)</h1>
+    <hr />
+    <br />
+    <section class="flex-container">
+      <div class="item item-1">item 1</div>
+      <div class="item item-2">item 2</div>
+      <div class="item item-3">item 3</div>
+      <div class="item item-4">item 4</div>
+    </section>
+  </body>
+</html>
+/*style.css*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: hsl(0, 0%, 96%);
+}
+
+#main-heading {
+  font-size: 6.2rem;
+  color: #1e1403;
+  margin: 3rem 0;
+}
+
+.flex-container {
+  width: 60%;
+  height: 600px;
+}
+.flex-container {
+  width: 60%;
+  height: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  color: #fff;
+  /* flexbox container properties */
+  display: flex;
+ justify-content: flex-end;/*flex-end and end both are same*/
+.item{
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to right top, #004d7a, #00bf72, #a8eb12);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  font-size: 24px;
+}
+```
+#### Output:
+
 - **justify-content:space-between**
   
 ![image](https://github.com/user-attachments/assets/b99bd807-df24-4333-b3e0-f7dec0721155)
