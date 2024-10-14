@@ -111,7 +111,7 @@ flex-direction: row;
   flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
-- **flex-direction:column**
+#### flex-direction:column**
 
 ![image](https://github.com/user-attachments/assets/d4697a3c-70ab-4cf6-8134-7a8a681213bc)
 
@@ -325,7 +325,7 @@ flex-direction: column;
 ```
 #### Output:
 ![image](https://github.com/user-attachments/assets/dcfe3de4-2f78-48ad-97f4-0432b9e6df3f)
-#### Example-4(display: flex;flex-direction:column-reverse;)
+#### Example-4(display:flex;flex-direction:column-reverse;)
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -484,7 +484,7 @@ body {
 ![image](https://github.com/user-attachments/assets/dcdf37f9-4d84-4e3d-b13f-3be72105ec7a)
 #### justify-content: flex-end/end
 ![image](https://github.com/user-attachments/assets/03ee4d59-c85f-4d1a-9916-94f5d3ce8556)
-#### Example-2(display: flex; justify-content: flex-end;)-->flex-start and start both are same
+#### Example-2(display: flex; justify-content: flex-end;)-->flex-end and end both are same
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -553,6 +553,7 @@ body {
 }
 ```
 #### Output:
+![image](https://github.com/user-attachments/assets/a177de13-d880-415d-acfd-d9a56974f15f)
 
 - **justify-content:space-between**
   
