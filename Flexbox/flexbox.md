@@ -95,5 +95,23 @@
 - **nowrap (default): all flex items will be on one line**
 - **wrap: flex items will wrap onto multiple lines, from top to bottom.**
 - **wrap-reverse: flex items will wrap onto multiple lines from bottom to top.**
+- **Syntax:**
+```
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+```
 
 ![image](https://github.com/user-attachments/assets/76798933-449f-4da3-9822-4ff18af0b8c8)
+
+- **6) align-content:**
+- **We can only use align-content when we specifically use flex-wrap, neither it is impossible to use.** 
+- **Aligns multiple lines of flex items when there is extra space along the cross axis.**
+- **Values: flex-start, flex-end, center, space-between, space-around, stretch.**
+- **Syntax:**
+```
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end ;
+}
+```
+![image](https://github.com/user-attachments/assets/3c4ed7ae-515c-4f9f-888e-d5a73a79e82a)
