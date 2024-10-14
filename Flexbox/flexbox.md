@@ -87,3 +87,13 @@
 - **We can use both ```justify-content: center;align-items: center;``` to center any element horizontally and vertically.**
  
 ![image](https://github.com/user-attachments/assets/189becd8-e757-4d51-a1ce-caef1115baad)
+
+- **5) flex-wrap:**
+- **Specifies whether flex items should wrap to the next line when they overflow the container.**
+- **By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.**
+- **Values: nowrap (default), wrap, wrap-reverse.**
+- **nowrap (default): all flex items will be on one line**
+- **wrap: flex items will wrap onto multiple lines, from top to bottom.**
+- **wrap-reverse: flex items will wrap onto multiple lines from bottom to top.**
+
+![image](https://github.com/user-attachments/assets/76798933-449f-4da3-9822-4ff18af0b8c8)
