@@ -24,7 +24,7 @@
 - **Items display in a row (the flex-direction property's default is row).**
 - **If the flex-direction:row then horizontal will be main-axis.** 
 - **if flex-direction:column the vertical part will be main-axis and horizontal axis become the cross axis.**
-- Syantax:
+- Syntax:
 ```
 .container {
   flex-direction: row | row-reverse | column | column-reverse;
@@ -60,6 +60,11 @@
 - **4)Align Items (align-items):**
 
 ![image](https://github.com/user-attachments/assets/50d551c1-bc0f-40d1-9840-850f32a56beb)
-
+- **Syntax:**
+```
+.container {
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start ;
+}
+```
 - **align-items aligns flex items along the cross axis.**
 - **Values include flex-start, flex-end, center, stretch, and baseline.**
