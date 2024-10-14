@@ -399,6 +399,7 @@ flex-direction:column-reverse;
 #### 3)Justify Content (justify-content): justify-content aligns flex items along the main axis means horizontally.
 - **Values include flex-start, flex-end, center, space-between, and space-around.**
 - **justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; always apply to parent not to children**
+### justify-content: center; always works horizontally when we are using flex-direction: row; and if we use flex-direction: column; then it will be working vertically.
 
 ![image](https://github.com/user-attachments/assets/35b7c9d2-4eae-4ad3-8b34-63f2a3d4d406)
 - **Syntax:**
