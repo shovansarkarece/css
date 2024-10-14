@@ -53,3 +53,6 @@
 - **justify-content: flex-end/end**
 
 ![image](https://github.com/user-attachments/assets/03ee4d59-c85f-4d1a-9916-94f5d3ce8556)
+- **justify-content:space-between**
+  
+![image](https://github.com/user-attachments/assets/b99bd807-df24-4333-b3e0-f7dec0721155)
