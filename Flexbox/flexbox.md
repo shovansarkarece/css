@@ -33,9 +33,8 @@
 - **flex-direction:column**
 
 ![image](https://github.com/user-attachments/assets/d4697a3c-70ab-4cf6-8134-7a8a681213bc)
-- **3)Justify Content (justify-content): justify-content aligns flex items along the main axis.**
+- **3)Justify Content (justify-content): justify-content aligns flex items along the main axis means horizentally.**
 - **Values include flex-start, flex-end, center, space-between, and space-around.**
-
 ![image](https://github.com/user-attachments/assets/35b7c9d2-4eae-4ad3-8b34-63f2a3d4d406)
 - Syntax:
 ```
@@ -43,5 +42,6 @@
   justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
 }
 ```
-
+#### Example
+- **justify-content: start**
 ![image](https://github.com/user-attachments/assets/01703b19-fec1-42cc-b26a-d0df40747f2c)
