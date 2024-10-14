@@ -25,7 +25,7 @@
 - **Items display in a row (the flex-direction property's default is row).**
 - **If the flex-direction:row then horizontal will be main-axis.** 
 - **if flex-direction:column the vertical part will be main-axis and horizontal axis become the cross axis.**
-- - **flex-direction: row | row-reverse | column | column-reverse; always apply to parent not to children**
+- **flex-direction: row | row-reverse | column | column-reverse; always apply to parent not to children**
 - Syntax:
 ```
 .container {
@@ -61,7 +61,7 @@
 ![image](https://github.com/user-attachments/assets/b99bd807-df24-4333-b3e0-f7dec0721155)
 
 - **4)Align Items (align-items):**
-- - **align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start ; always apply to parent not to children**
+- **align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start ; always apply to parent not to children**
 
 ![image](https://github.com/user-attachments/assets/50d551c1-bc0f-40d1-9840-850f32a56beb)
 - **Syntax:**
@@ -121,3 +121,30 @@
 }
 ```
 ![image](https://github.com/user-attachments/assets/3c4ed7ae-515c-4f9f-888e-d5a73a79e82a)
+
+#### Above all property applied on parent but below properties will be applied in children only.
+/** ------------- Flex Item Properties (children) ------------ */
+/*? a. order:
+- Determines the order in which a flex item appears relative to other flex items within the container.
+- Lower values come first. */
+
+/*? b. flex-grow:
+- Specifies how much a flex item should grow to fill available space along the main axis.
+- Default value is 0, meaning it won't grow. */
+
+/*? c. flex-shrink:
+- Specifies how much a flex item should shrink when there isn't enough space along the main axis.
+- Default value is 1, meaning it will shrink. */
+
+/*? d. flex-basis:
+- Defines the initial size of a flex item along the main axis.
+- Default value is auto, which means the item's size is determined by its content. */
+
+/*? e. flex (Shorthand for flex-grow, flex-shrink, and flex-basis):
+- Combines the three flex item properties in one declaration. */
+
+/** ---------- Alignment Properties (Self) ---------------- */
+
+/*? a. align-self:
+- Overrides the align-items property for an individual flex item.
+- Allows you to align a single item differently from others. */
