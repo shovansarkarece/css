@@ -703,7 +703,7 @@ body {
 ![image](https://github.com/user-attachments/assets/0aef0e23-7430-4163-9798-fd9338fe4ec0)
 #### justify-content:space-evenly
 ![image](https://github.com/user-attachments/assets/0280dbce-f045-4d81-afba-7db6eac53d9b)
-#### Example-4(display: flex;justify-content:space-between;)
+#### Example-4(display: flex;justify-content:space-evenly;)
 ```
 /*index.html*/
 <!DOCTYPE html>
