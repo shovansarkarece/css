@@ -440,6 +440,99 @@ gap: 50px;
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/cb98c842-0c9c-47e0-99a4-f9731057efb2)
+### Example-1 ```grid-column``` and ```grid-row``` and ```grid-area```
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item item-1">item-1</div>
+      <div class="item item-2">item-2</div>
+      <!-- <div class="item item-2">item-2, World Best CSS CourseEver</div> -->
+      <!-- World Best CSS CourseEver -->
+      <div class="item item-3--child">item-3</div>
+      <div class="item item-4">item-4</div>
+      <div class="item item-5">item-5</div>
+      <div class="item item-6">item-6</div>
+    </div>
+  </body>
+</html>
+/*style.css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: #2c3639;
+}
+.grid-container {
+  width: 80%;
+  margin: 100px auto;
+  background-color: #dcd7c9;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+display: grid;
+grid-template-rows: repeat(2,250px);
+grid-template-columns: repeat(3,1fr);
+gap: 50px; 
+.item {
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.item-1 {
+  background-color: #662549;
+  /*grid-row-start: 2;
+  grid-row-end: 3;*/
+/*shortened of grid-row-start and grid-row-end is grid-row */
+  /* grid-row: 2 / 3; */
+  /* grid-column-start: 2;
+  grid-column-end: 3; */
+/*shortened of grid-column-start and grid-column-end is grid-column */
+  /* grid-column: 2 / 3; */
+/*grid-area:grid-row-start/grid-column-start/grid-row-end/grid-column-end*/
+   grid-area: 2 / 2 / 3 / 3; 
+}
+.item-2 {
+  background-color: #113946;
+}
+.item-3 {
+  background-color: #102c57;
+   grid-row: 1/2;
+  grid-column: 2/4;
+/*we can use grid-area instead of grid-row and grid-column*/
+grid-area:1/2/2/4;
+}
+.item-4 {
+  background-color: #884a39;
+}
+.item-5 {
+  background-color: #454545;
+}
+.item-6 {
+  background-color: #85586f;
+}
+```
+### Output
+![image](https://github.com/user-attachments/assets/9b331a46-9505-4485-83cd-f884124ba153)
 
 # Explicit vs Implicit grid
 
