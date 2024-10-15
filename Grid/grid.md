@@ -16,7 +16,7 @@
 - **Use the grid-template-columns and grid-template-rows properties to set the sizes and structure of the grid.**
 - **Columns and rows can be specified as fixed sizes (e.g., pixels) or flexible sizes (e.g., percentages, fractions).**
 
-/*? 4: Grid Lines and Tracks: */
+#### 4)Grid Lines and Tracks: */
 
 /* Grid lines are the dividing lines between columns and rows. */
 /* Tracks are the spaces between grid lines where content can be placed. */
