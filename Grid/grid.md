@@ -344,7 +344,7 @@ body {
 - **Tracks are the spaces between grid lines where content can be placed.**
 - **You can name grid lines and tracks for better organization.**
 
-#### 5)Placing Grid Items: */
+#### 5)Placing Grid Items: 
 - **Grid items are placed within the grid using the ```grid-column``` and ```grid-row``` properties.**
 - **We can also use the shorthand property ```grid-area``` to specify both column and row placement in a single declaration.**
 - **The grid-area property specifies a grid item's size and location in a grid layout, and is a shorthand property for the following properties**
@@ -789,6 +789,10 @@ column-gap:50px;
 ### Output
 ![image](https://github.com/user-attachments/assets/a08c1cd9-4ba0-4f1c-b17f-9da05a2b6771)
 # Explicit vs Implicit grid
+- **Sometimes we created some layout that we did not create explicitly but some grid sections were created implicitly. Like below example item-6.**
+- **In this case we use ```grid-auto-rows``` and ```grid-auto-columns```
+
+![image](https://github.com/user-attachments/assets/9b331a46-9505-4485-83cd-f884124ba153)
 
 /*? 7. Grid Auto: */
 
