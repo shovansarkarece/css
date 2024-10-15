@@ -856,6 +856,15 @@ gap: 50px;
 /* we can change the positions easily  */
 .item-1 {
   background-color: #662549;
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
+/*shortened of grid-row-start and grid-row-end is grid-row */
+  /* grid-row: 2 / 3; */
+  /* grid-column-start: 2;
+  grid-column-end: 3; */
+/*shortened of grid-column-start and grid-column-end is grid-column */
+  /* grid-column: 2 / 3; */
+/*grid-area:grid-row-start/grid-column-start/grid-row-end/grid-column-end*/
 grid-area: 2 / 2 / 3 / 3;
 }
 .item-2 {
