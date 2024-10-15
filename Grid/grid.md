@@ -366,7 +366,7 @@ grid-column-end */
 - **You can control gaps between columns and rows separately using the grid-column-gap and grid-row-gap properties or the shorthand grid-gap.**
 - **This property is a shorthand for the following CSS properties: The gap CSS shorthand property sets the gaps (gutters) between rows and columns.**
 ## grid-column-gap,grid-row-gap(deprecated)
-### Example(grid-row-gap: 50px; grid-column-gap: 50px;)
+### Example-1(grid-row-gap: 50px; grid-column-gap: 50px;)
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -450,7 +450,7 @@ body {
 ### Output
 ![image](https://github.com/user-attachments/assets/0d40f5f8-de49-4895-9232-fcd8325f6a8a)
 ## grid-gap(deprecated)
-### Example(grid-gap: 50px;)-->deprecated
+### Example-2(grid-gap: 50px;)-->deprecated
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -531,7 +531,7 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/236fd78d-72cb-4c0a-a1a8-b4da621f3b2e)
-## Example-3(row-gap;column-gap)
+## Example-3(row-gap;column-gap)-->Updated
 ```
 /*index.html*/
 <!DOCTYPE html>
