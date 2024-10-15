@@ -15,6 +15,84 @@
 - **To create a grid, you first define the columns and rows.**
 - **Use the grid-template-columns and grid-template-rows properties to set the sizes and structure of the grid.**
 - **Columns and rows can be specified as fixed sizes (e.g., pixels) or flexible sizes (e.g., percentages, fractions).**
+### Example-1
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item item-1">item-1</div>
+      <div class="item item-2">item-2</div>
+      <div class="item item-3--child">item-3</div>
+      <div class="item item-4">item-4</div>
+      <div class="item item-5">item-5</div>
+      <div class="item item-6">item-6</div>
+    </div>
+  </body>
+</html>
+/*style.css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: #2c3639;
+}
+.grid-container {
+  width: 80%;
+  margin: 100px auto;
+  background-color: #dcd7c9;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* grid starts here  */
+  display: grid;
+  grid-template-rows: 250px 250px;
+}
+.item {
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.item-1 {
+  background-color: #662549;
+}
+.item-2 {
+  background-color: #113946;
+}
+.item-3 {
+  background-color: #102c57;
+  /* grid-row: 1/2;
+  grid-column: 2/4; */
+}
+.item-4 {
+  background-color: #884a39;
+}
+.item-5 {
+  background-color: #454545;
+}
+.item-6 {
+  background-color: #85586f;
+}
+
+```
 
 #### 4)Grid Lines and Tracks: */
 
