@@ -533,9 +533,6 @@ grid-area:1/2/2/4;
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/9b331a46-9505-4485-83cd-f884124ba153)
-
-# Explicit vs Implicit grid
-
 ### 6)Grid Gaps
 - **Grid gaps are the spaces between grid items and tracks.**
 - **You can control gaps between columns and rows separately using the grid-column-gap and grid-row-gap properties or the shorthand grid-gap.**
@@ -791,7 +788,7 @@ column-gap:50px;
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/a08c1cd9-4ba0-4f1c-b17f-9da05a2b6771)
-
+# Explicit vs Implicit grid
 
 /*? 7. Grid Auto: */
 
