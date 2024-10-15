@@ -359,15 +359,18 @@ grid-column-end */
 
 /*? Explicit vs Implicit grid  */
 
-/*? 6. Grid Gaps: */
+### 6)Grid Gaps
+- **Grid gaps are the spaces between grid items and tracks.**
+- **You can control gaps between columns and rows separately using the grid-column-gap and grid-row-gap properties or the shorthand grid-gap.**
+- **This property is a shorthand for the following CSS properties: The gap CSS shorthand property sets the gaps (gutters) between rows and columns.**
+## column-gap,row-gap(depricated)
+### Example(grid-row-gap: 50px; grid-column-gap: 50px;)
+### Output
 
-/* Grid gaps are the spaces between grid items and tracks. */
-/* You can control gaps between columns and rows separately using the grid-column-gap and grid-row-gap properties or the shorthand grid-gap. */
 
-/*! This property is a shorthand for the following CSS properties: The gap CSS shorthand property sets the gaps (gutters) between rows and columns. */
 
-/* column-gap */
-/* row-gap */
+
+
 /* gap */
 
 /*? 7. Grid Auto: */
