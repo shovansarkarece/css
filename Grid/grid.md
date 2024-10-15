@@ -18,9 +18,9 @@
 
 #### 4)Grid Lines and Tracks: */
 
-/* Grid lines are the dividing lines between columns and rows. */
-/* Tracks are the spaces between grid lines where content can be placed. */
-/* You can name grid lines and tracks for better organization. */
+- **Grid lines are the dividing lines between columns and rows.**
+- **Tracks are the spaces between grid lines where content can be placed.**
+- **You can name grid lines and tracks for better organization.**
 
 /*? 5. Placing Grid Items: */
 
