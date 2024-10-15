@@ -348,9 +348,8 @@ body {
 - **Grid items are placed within the grid using the ```grid-column``` and ```grid-row``` properties.**
 - **We can also use the shorthand property ```grid-area``` to specify both column and row placement in a single declaration.**
 - **The grid-area property specifies a grid item's size and location in a grid layout, and is a shorthand property for the following properties**
-- ```grid-area:grid-row-start/grid-column-start/grid-row-end/grid-column-end```
-
-/*? Explicit vs Implicit grid  */
+- **```grid-area:grid-row-start/grid-column-start/grid-row-end/grid-column-end```**
+# Explicit vs Implicit grid
 
 ### 6)Grid Gaps
 - **Grid gaps are the spaces between grid items and tracks.**
