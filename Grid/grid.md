@@ -343,6 +343,7 @@ body {
 - **Grid lines are the dividing lines between columns and rows.**
 - **Tracks are the spaces between grid lines where content can be placed.**
 - **You can name grid lines and tracks for better organization.**
+
 ![image](https://github.com/user-attachments/assets/26f2ce7b-a584-4aa8-b675-ce3580b2c803)
 
 #### 5)Placing Grid Items: 
