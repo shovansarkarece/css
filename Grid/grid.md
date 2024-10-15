@@ -531,7 +531,7 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/236fd78d-72cb-4c0a-a1a8-b4da621f3b2e)
-## Example-3(row-gap;column-gap)-->Updated
+## Example-3(row-gap;column-gap)/gap;-->Updated
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -581,6 +581,8 @@ grid-template-rows: repeat(2,250px);
 grid-template-columns: repeat(3,1fr);
 row-gap: 50px; 
 column-gap:50px;
+/*instead of row-gap and column-gap we can use gap only*/
+gap:50px; 
 }
 .item {
   display: grid;
