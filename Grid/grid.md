@@ -93,6 +93,8 @@ body {
 }
 
 ```
+### Output
+![image](https://github.com/user-attachments/assets/cc0d9027-2d83-4feb-bac5-662bf3e3f4df)
 
 #### 4)Grid Lines and Tracks: */
 
