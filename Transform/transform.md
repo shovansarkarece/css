@@ -487,6 +487,93 @@ https://github.com/user-attachments/assets/8e226d4c-64d6-4646-aa87-7cb9c694ef84
 ## transform: rotate()
 - **The rotate() function takes one parameter**
 ## rotate(angle) - Specifies the angle of rotation in degrees. Positive values rotate clockwise, and negative values rotate counterclockwise. */
+### Example-2: transform: rotateX(45deg); 
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div class="box">translate</div> -->
+      <!-- <div class="box">scale</div> -->
+      <!-- <div class="box">Rotate</div> -->
+      <!-- <div class="box">skew</div> -->
+      <!-- <div class="box">img</div> -->
+      <img class="box" src="../../images/html.png" alt="" srcset="" />
+    </div>
+  </body>
+</html>
+/*style.css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 85%);
+  background-color: #2b3033;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  box-shadow: inset 0 0 0 5px #4861ec;
+}
+.box {
+  /* width: 250px;
+    height: 100px; */
+  /* below three properties for scale and transform */
+  width: 250px;
+  height: 250px;
+  background-color: #4861ec;
+  box-shadow: 0 0 0px 15px #353f6d;
+  margin: 20px;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: all;
+}
+.container img {
+  width: 100%;
+  width: 30%;
+  height: auto;
+  transition: all 1s linear;
+}
+.container img:hover {
+  transform: rotate(90deg); 
+  /* transform: rotate(180deg); */
+  /* transform: rotateX(180deg); */
+   /* transform: rotateY(180deg); */
+   /* transform: rotateX(45deg);
+}
+```
+#### Output
+https://github.com/user-attachments/assets/58e3a4d8-dbdb-4a1c-8182-f91774ab4842
+
+
+
+
+
 ## skew() method skews an element along the X and Y-axis by the given angles.
 - **We can use this to create visually interesting effects, such as tilting or slanting elements.**
 
