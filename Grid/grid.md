@@ -338,6 +338,11 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/dbbd4e66-7c51-430d-b13c-c4743f3b4521)
+# min-content and max-content
+- **This min-content will take the minimum place of particular row or column's content which is the largest text over there**
+- **In most cases we are using it for text-position.**
+### Output
+![image](https://github.com/user-attachments/assets/4f056d4d-dd06-4800-9546-1a4d3926fb49)
 
 #### 4)Grid Lines and Tracks:
 - **Grid lines are the dividing lines between columns and rows.**
@@ -1460,7 +1465,7 @@ justify-items: center;
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/2e998785-726b-4706-86fb-2ea2d8bef499)
-### Example-3)justify-items:center
+### Example-3)justify-items: center
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -1539,6 +1544,8 @@ justify-items: stretch;
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/13855193-817f-47f2-a5aa-e638306e1b10)
+
+
 
 /*? 8. Responsive Grids: */
 
