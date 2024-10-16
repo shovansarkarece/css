@@ -338,7 +338,9 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/dbbd4e66-7c51-430d-b13c-c4743f3b4521)
-## Example-3(fr-->fractional Unit)
+## Example-4(fr-->fractional Unit)
+- **```grid-template-columns: 1fr 3fr 2fr;```
+>It means first section  of column is 1 fractional unit,second section of column is 2 times of 1st fractional unit and third section of column is 3 times of 1st fractional unit**
 ```
 /*index.html*/
 <!DOCTYPE html>
