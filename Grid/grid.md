@@ -257,7 +257,7 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/47d0ba76-85cb-490d-b509-7a85486517c4)
-## Example-3( display: grid;grid-template-rows: repeat(2,250px);grid-template-columns: repeat(3,1fr);)
+## Example-4( display: grid;grid-template-rows: repeat(2,250px);grid-template-columns: repeat(3,1fr);)
 ```
 /*index.html*/
 <!DOCTYPE html>
@@ -338,8 +338,8 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/dbbd4e66-7c51-430d-b13c-c4743f3b4521)
-## Example-4(fr-->fractional Unit)
-- **```grid-template-columns: 1fr 3fr 2fr;```
+## Example-5(fr-->fractional Unit)
+- **```grid-template-columns: 1fr 3fr 2fr;```**
 >It means first section  of column is 1 fractional unit,second section of column is 2 times of 1st fractional unit and third section of column is 3 times of 1st fractional unit**
 ```
 /*index.html*/
