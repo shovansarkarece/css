@@ -1,4 +1,4 @@
-# Transform
+# Transition
 ![image](https://github.com/user-attachments/assets/32cfd6c3-4fc1-46a6-9456-1e07f0a8578a)
 
 # 1)transition-property: Specifies which CSS properties should be transitioned.
