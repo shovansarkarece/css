@@ -1062,6 +1062,8 @@ gap: 50px;
 }
 ```
 ### Output
+![image](https://github.com/user-attachments/assets/a1eddeee-07a3-465f-aa85-1e8ff081eaaa)
+
 /*? 8. Responsive Grids: */
 
 /* CSS Grid is highly responsive. Grid items can be repositioned and resized automatically as the viewport size changes. */
