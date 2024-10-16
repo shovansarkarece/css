@@ -29,7 +29,12 @@
 ```
 # 4)transition-delay: Sets a delay before the transition starts.
 - **Example: Starting the transition after 0.5 seconds.**
-
+#### Syntax
+```
+.element {
+  transition-delay: 2s;
+} */
+```
 # shorthand property of all 4 is simply to write transition */
 - **property name | duration | easing function | delay**
 - **transition: margin-right 4s ease-in-out 1s;**
