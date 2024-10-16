@@ -550,6 +550,7 @@ body {
   display: grid;
  grid-template-columns: 1fr max-content repeat(1, 1fr);
   grid-template-rows: repeat(2,250px);
+grid-auto-rows:250px ;
   gap: 50px;
 }
 .item {
@@ -630,6 +631,7 @@ body {
   display: grid;
  grid-template-columns: 1fr minmax(250px, 1fr) repeat(1, 1fr);
   grid-template-rows: repeat(2,250px);
+ grid-auto-rows:250px ;
   gap: 50px;
 }
 .item {
@@ -712,6 +714,7 @@ body {
   display: grid;
  grid-template-columns: repeat(3, minmax(250px, 1fr));
   grid-template-rows: repeat(2,250px);
+  grid-auto-rows:250px ;
   gap: 50px;
 }
 .item {
