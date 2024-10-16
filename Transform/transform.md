@@ -762,3 +762,4 @@ https://github.com/user-attachments/assets/9c7f7478-febb-4527-999b-bbbf44af03ff
 ## 4)How can you combine multiple transform functions to perform complex transformations on an element? */
 - **.element { transform: scale(1.5) rotate(45deg) translate(20px, 30px); }**
 # shortend--> ```transform: translateX(100px) scale(0.5) rotate(45deg);```
+- **In shortened it is mandatory to maintain sequence that's why we use individual property which is more relevant and updated.**
