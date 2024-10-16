@@ -581,7 +581,7 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/aca85df3-5ce7-4fc7-b8c0-c8bebbf1034b)
-- **In this below example it is visible that as much as we squeeze this section it will not go under 250px.
+- **In this below example it is visible that as much as we squeeze this section it will not go under 250px.**
 ![image](https://github.com/user-attachments/assets/a18a24cd-ae30-43bd-ba1f-35ebdb6d92c7)
 
 #### 4)Grid Lines and Tracks:
