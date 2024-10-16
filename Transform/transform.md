@@ -397,11 +397,9 @@ body {
 ```
 #### Output
 https://github.com/user-attachments/assets/be788dac-625b-40c7-8ad9-da60fba178e2
-
-
 ## transform: scale()
 - **The scale() function takes one or two values**
-## scale(x) - Scales the element by a factor of x along both the X and Y axes. A value of 1 is the original size, values greater than 1 make it larger, and values less than 1 make it smaller.
+- **scale(x) - Scales the element by a factor of x along both the X and Y axes. A value of 1 is the original size, values greater than 1 make it larger, and values less than 1 make it smaller.**
 - **scale(x, y) - Scales the element by a factor of x along the X-axis and y along the Y-axis. You can use different values for horizontal and vertical scaling.**
 
 ## transform: rotate()
