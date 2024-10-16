@@ -747,19 +747,18 @@ rotate: 20deg;
 https://github.com/user-attachments/assets/9c7f7478-febb-4527-999b-bbbf44af03ff
 
 
-Perspective to create a 3d world. It's a line between our eyes and computer screen. */
-/**  INTERVIEW QUESTIONS
-/** ---------------------------------------- --> */
+##### Perspective to create a 3d world. It's a line between our eyes and computer screen.
+# INTERVIEW QUESTIONS
 
-/*? 1: How can you use the translate transform function to move an element 50 pixels to the right and 20 pixels down? */
-/* .element { transform: translate(50px, 20px); } */
+## 1)How can you use the translate transform function to move an element 50 pixels to the right and 20 pixels down? */
+- **.element { transform: translate(50px, 20px); }**
 
-/*? 2: Explain the scale transform function. How would you make an element twice its original size? */
-/* .element { transform: scale(2); } */
+##  2)Explain the scale transform function. How would you make an element twice its original size? */
+- **.element { transform: scale(2); }**
 
-/*? 3: How do you rotate an element 45 degrees clockwise using the rotate transform function? */
-/* .element {  transform: rotate(45deg); } */
+## 3)How do you rotate an element 45 degrees clockwise using the rotate transform function? */
+- **.element {  transform: rotate(45deg); }**
 
-/*? 4: How can you combine multiple transform functions to perform complex transformations on an element? */
-/* .element { transform: scale(1.5) rotate(45deg) translate(20px, 30px); } */
+## 4)How can you combine multiple transform functions to perform complex transformations on an element? */
+- **.element { transform: scale(1.5) rotate(45deg) translate(20px, 30px); }**
 
