@@ -746,7 +746,92 @@ body {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/4618d0f5-3ee7-480d-b7d6-8b9ef9fe0598)
+## If we see the below picture, it is visible that it is not responsive where every section is not adjust according to our requirement.That's why we will use ```autofill``` and ```autofit```
+![image](https://github.com/user-attachments/assets/00d8b360-c99a-4cfa-aa0a-986283c075d0)
 
+# autofill and autofit
+### Example-1: grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+- **It means fill automatically columns where the minimum unit will be 250px and the maximum unit will be 1 fractional unit.** 
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item item-1">item-1</div>
+      <!-- <div class="item item-2">item-2</div> -->
+      <div class="item item-2">item-2, World Best CSS CourseEver</div>
+      <!-- World Best CSS CourseEver -->
+      <div class="item item-3 child">item-3</div>
+      <div class="item item-4">item-4</div>
+      <div class="item item-5">item-5</div>
+      <div class="item item-6">item-6</div>
+    </div>
+  </body>
+</html>
+/*style.css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  min-height: 100vh;
+  background-color: #2c3639;
+}
+.grid-container {
+  width: 80%;
+  margin: 100px auto;
+  background-color: #dcd7c9;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+/* Example of min-content */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(2,250px);
+  grid-auto-rows:250px ;
+  gap: 50px;
+}
+.item {
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.item-1 {
+  background-color: #662549;
+}
+.item-2 {
+  background-color: #113946;
+}
+.item-3 {
+  background-color: #102c57;
+}
+.item-4 {
+  background-color: #884a39;
+}
+.item-5 {
+  background-color: #454545;
+}
+.item-6 {
+  background-color: #85586f;
+}
+```
+### Output(According to device)
+![image](https://github.com/user-attachments/assets/8e07e6b5-8f38-4ec4-85d7-5f65b5e1adf5)
+![image](https://github.com/user-attachments/assets/b064ab25-24a9-497a-b417-24339ee48f71)
+![image](https://github.com/user-attachments/assets/52156fbc-a64e-4599-8dc4-088787ef73af)
 
 #### 4)Grid Lines and Tracks:
 - **Grid lines are the dividing lines between columns and rows.**
