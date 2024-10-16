@@ -502,7 +502,7 @@ body {
 ### Output
 ![image](https://github.com/user-attachments/assets/f3992383-0ac0-4710-91f5-b4580da82f61)
 # minmax(250 px, 1fr)-->It means the minimum of 250 px we required and maximum will be 1 fractional unit.
-- **Here first parameter will be minimum  unit and second parameter will be maximum unit)
+- **Here first parameter will be minimum  unit and second parameter will be maximum unit)**
 ### Example-1
 ```
 /*index.html*/
