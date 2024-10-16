@@ -27,7 +27,9 @@
 # 4)transition-delay: Sets a delay before the transition starts.
 - **Example: Starting the transition after 0.5 seconds.**
 
+# shorthand property of all 4 is simply to write transition */
+- **property name | duration | easing function | delay**
+- **transition: margin-right 4s ease-in-out 1s;**
+### Output
+https://github.com/user-attachments/assets/fd2ac2c8-44db-4e19-bb7d-00f4b1ce048a
 
-/** shorthand property of all 4 is simply to write transition */
-/* property name | duration | easing function | delay */
-/*? transition: margin-right 4s ease-in-out 1s; */
