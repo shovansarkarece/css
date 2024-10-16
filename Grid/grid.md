@@ -339,8 +339,83 @@ body {
 ### Output
 ![image](https://github.com/user-attachments/assets/dbbd4e66-7c51-430d-b13c-c4743f3b4521)
 # min-content and max-content
-- **This min-content will take the minimum place of particular row or column's content which is the largest text over there**
+- **This min-content will take the minimum place of a particular row or column's content which is the largest content over there**
 - **In most cases we are using it for text-position.**
+```
+/*index.html*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item item-1">item-1</div>
+      <!-- <div class="item item-2">item-2</div> -->
+      <div class="item item-2">item-2, World Best CSS CourseEver</div>
+      <!-- World Best CSS CourseEver -->
+      <div class="item item-3 child">item-3</div>
+      <div class="item item-4">item-4</div>
+      <div class="item item-5">item-5</div>
+      <div class="item item-6">item-6</div>
+    </div>
+  </body>
+</html>
+/*style.css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  min-height: 100vh;
+  background-color: #2c3639;
+}
+.grid-container {
+  width: 80%;
+  margin: 100px auto;
+  background-color: #dcd7c9;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+/* Example of min-content */
+  display: grid;
+  grid-template-columns: 1fr min-content repeat(1, 1fr);
+  grid-template-rows: repeat(2,250px);
+  gap: 50px;
+}
+.item {
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.item-1 {
+  background-color: #662549;
+}
+.item-2 {
+  background-color: #113946;
+}
+.item-3 {
+  background-color: #102c57;
+}
+.item-4 {
+  background-color: #884a39;
+}
+.item-5 {
+  background-color: #454545;
+}
+.item-6 {
+  background-color: #85586f;
+}
+```
 ### Output
 ![image](https://github.com/user-attachments/assets/4f056d4d-dd06-4800-9546-1a4d3926fb49)
 
