@@ -341,6 +341,7 @@ body {
 # min-content and max-content
 - **This min-content will take the minimum place of a particular row or column's content which is the largest content over there**
 - **In most cases we are using it for text-position.**
+## Example-1(min-content)
 ```
 /*index.html*/
 <!DOCTYPE html>
