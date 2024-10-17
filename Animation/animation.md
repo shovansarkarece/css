@@ -19,7 +19,7 @@
 - **Values include normal, reverse, alternate, and alternate-reverse.**
 - **Example: animation-direction: alternate;**
 
-# Very Important 
+# Very Very Important 
 - **@keyframes:**
 - **This is not a property but a rule used to define the animation's keyframes. Keyframes specify how the element should look at various points during the animation.**
 ### Example-1
