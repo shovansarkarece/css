@@ -67,12 +67,10 @@ container-type: inline-size;
           padding: 20px 0;
         }
       }
-
       @media (width <= 600px) {
         .media div {
           grid-template-columns: 1fr;
         }
-
         h1 {
           color: #ffb000;
           text-transform: uppercase;
@@ -83,16 +81,13 @@ container-type: inline-size;
   </head>
   <body>
     <br /><br />
-
     <div class="container">
       <div>
         <img src="../../images/html.png" alt="" />
         <h1>new css feature container queries..</h1>
       </div>
     </div>
-
     <br /><br />
-
     <div class="media">
       <div>
         <img src="../../images/html.png" alt="" />
