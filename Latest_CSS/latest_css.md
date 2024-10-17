@@ -21,5 +21,5 @@ border-block-width
 ### Writing Mode
 - **The writing-mode property specifies whether lines of text are laid out horizontally or vertically.**
 - **writing-mode: horizontal-tb|vertical-rl|vertical-lr;**
-#### EXample
+#### Example
 ![image](https://github.com/user-attachments/assets/54eb5519-a24b-46fd-b951-f24d61ccb6c8)
