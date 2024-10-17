@@ -286,8 +286,8 @@ li {
 - **The :where() pseudo-class is similar to :is() and allows you to select elements that match any of the provided selectors.**
 - **It's typically used when you want to group selectors without applying specific styles.**
 - **:where() has less priority than :is().**
-- - **when we use any element more than 1 times then we will use ```where()```.
-- **But in this below example grid is using everywhere that's why we don't use any kind of ```:where()```.But for h1,p,.section-about, .section-testimonial it is not used everywhere that's why we use ```:where()```.
+- - **when we use any element more than 1 times then we will use ```where()```.**
+- **But in this below example grid is using everywhere that's why we don't use any kind of ```:where()```.But for h1,p,.section-about, .section-testimonial it is not used everywhere that's why we use ```:where()```.**
 ![image](https://github.com/user-attachments/assets/547bd758-6a79-47e8-bbb2-2bdf1f3b48ea)
 
 # :has() Pseudo-Class:
