@@ -3,4 +3,5 @@
 
 - **The clip-path CSS property creates a clipping region that sets what part of an element should be shown. Parts that are inside the region are shown, while those outside are hidden.**
 
-### ![Clip_Path_Maker](https://bennettfeely.com/clippy/)
+### [Clippy by Bennett Feely](https://bennettfeely.com/clippy/)
+
