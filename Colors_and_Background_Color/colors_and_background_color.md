@@ -41,6 +41,9 @@ p {
 ```
 # Hexadecimal Colors:
 - **You can specify colors using hexadecimal values.**
+
+![image](https://github.com/user-attachments/assets/36463aab-a21f-495d-92aa-e0dabd635bd1)
+
 ### Example
 ```
 h1 {
