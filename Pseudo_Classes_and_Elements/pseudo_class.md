@@ -299,7 +299,7 @@ li {
 # :not() Pseudo-Class:
 - **The :not() pseudo-class allows you to select elements that do not match the provided selector.**
 - **It's commonly used to exclude specific elements from being styled.**
-
+![image](https://github.com/user-attachments/assets/d37d7865-a8e2-41d0-8d3a-b66b3b863dc5)
 
 
 
