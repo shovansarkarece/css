@@ -17,7 +17,7 @@ border-block-width
 ```
 ### CSS Nesting: 
 - **The CSS nesting module defines a syntax for nesting selectors, providing the ability to nest one style rule inside another, with the selector of the child rule relative to the selector of the parent rule.**
+![image](https://github.com/user-attachments/assets/71028651-c9af-4866-8585-5d7585827172)
+### Writing Mode
 - **The writing-mode property specifies whether lines of text are laid out horizontally or vertically.**
 - **writing-mode: horizontal-tb|vertical-rl|vertical-lr;**
-
-![image](https://github.com/user-attachments/assets/71028651-c9af-4866-8585-5d7585827172)
