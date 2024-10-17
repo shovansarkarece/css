@@ -221,7 +221,7 @@ h1 {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: 2; 
-  animation-direction: alternate;
+  animation-direction: alternate-reverse;
 }
 @keyframes lefttoright {
   from {
