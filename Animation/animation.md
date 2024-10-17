@@ -74,7 +74,7 @@ h1 {
   display: inline-block;
   border-radius: 50%;
   /*? animation start here  */
-  /* Example of animation lefttoright */
+  /* -------------------------------------Example of animation lefttoright------------------------------------------ */
   animation-name: lefttoright;
   animation-duration: 3s;
   animation-timing-function: linear;
@@ -91,3 +91,7 @@ translate: 90vw;
   }
 } 
 ```
+### Output
+https://github.com/user-attachments/assets/f89301f0-fae0-4f7e-aea7-bfa7aa5d7b71
+
+
