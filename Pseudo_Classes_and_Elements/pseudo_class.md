@@ -274,8 +274,21 @@ li {
 ### Output
 ![image](https://github.com/user-attachments/assets/348663f2-45a0-4ab2-9d52-19209c6ec553)
 
+ # :is() Pseudo-Class (or :matches()):
+- **The :is() pseudo-class allows you to select elements that match any of the provided selectors.**
+- **It's particularly useful when you want to apply the same styles to multiple selectors without repeating the styles.**
 
+# :where() Pseudo-Class:
+- **The :where() pseudo-class is similar to :is() and allows you to select elements that match any of the provided selectors.**
+- **It's typically used when you want to group selectors without applying specific styles.**
 
+# :has() Pseudo-Class:
+- **The :has() pseudo-class selects elements that contain a specific element or set of elements that match the provided selector.**
+- **It's currently not well-supported in modern browsers and may not be widely used in practice.**
+
+# :not() Pseudo-Class:
+- **The :not() pseudo-class allows you to select elements that do not match the provided selector.**
+- **It's commonly used to exclude specific elements from being styled.**
 
 
 
