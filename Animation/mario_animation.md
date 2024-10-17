@@ -1,3 +1,5 @@
+# Mario Animation
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,3 +45,9 @@
     <img src="../../images/mario-run.gif" alt="mario running " />
   </body>
 </html>
+```
+### Output
+https://github.com/user-attachments/assets/79a22e3f-2e79-4b75-adb5-f36dcc5f45ca
+
+
+
