@@ -278,8 +278,8 @@ li {
 - **The :is() pseudo-class allows you to select elements that match any of the provided selectors.**
 - **It's particularly useful when you want to apply the same styles to multiple selectors without repeating the styles.**
 - **:is() has higher priority than :where().**
-- **when we use any element more than 1 times then we will use ```is()```.
-- **But in this below example grid is using everywhere that's why we don't use any kind of ```:is()```.But for h1,p,.section-about, .section-testimonial it is not used everywhere that's why we use ```:is()```.
+- **when we use any element more than 1 times then we will use ```is()```.**
+- **But in this below example grid is using everywhere that's why we don't use any kind of ```:is()```.But for h1,p,.section-about, .section-testimonial it is not used everywhere that's why we use ```:is()```.**
 ![image](https://github.com/user-attachments/assets/ac4e92a7-f728-4a3a-96d3-54393fdcf610)
 
 # :where() Pseudo-Class:
@@ -292,113 +292,13 @@ li {
 
 # :has() Pseudo-Class:
 - **The :has() pseudo-class selects elements that contain a specific element or set of elements that match the provided selector.**
+- **:has() always checked that condition is applied or not.**
 - **It's currently not well-supported in modern browsers and may not be widely used in practice.**
+![image](https://github.com/user-attachments/assets/22805d6b-b42a-4b4a-8bb8-2b37995e63c8)
 
 # :not() Pseudo-Class:
 - **The :not() pseudo-class allows you to select elements that do not match the provided selector.**
 - **It's commonly used to exclude specific elements from being styled.**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
