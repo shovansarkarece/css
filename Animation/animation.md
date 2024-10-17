@@ -23,3 +23,6 @@
 - **@keyframes:**
 - **This is not a property but a rule used to define the animation's keyframes. Keyframes specify how the element should look at various points during the animation.**
 ### Example-1
+```
+
+```
