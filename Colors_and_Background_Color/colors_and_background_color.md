@@ -196,3 +196,5 @@ p {
   color: hsl(226, 84%, 17%, 0.8);
 }
 ```
+# BACKGROUND PROPERTIES
+![image](https://github.com/user-attachments/assets/5c0782cb-a1ea-46d2-9636-18b36a633401)
