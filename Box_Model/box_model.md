@@ -175,6 +175,7 @@ border-style: outset; */
 - **Default behavior 👉  width = 800 + 50 + 50 + 20 + 20 + 150px + 150px**
 - **Default behavior 👉  height = 500 + 50 + 50 + 20 + 20 + 100px + 100px**
 
+- **To avoid this calculation we always use as a universal selector `box-sizing:border-box`**
 
 - **1) Explain what the CSS Box Model is and its components.**
 
@@ -203,3 +204,9 @@ border-style: outset; */
 
 - **3: How can you center-align an HTML element horizontally using margins? ⭐⭐⭐⭐⭐**
 - **Using `margin:auto;`**
+
+# INTERVIEW QUESTIONS TO PADDING
+
+- **1: How do you set padding for all sides of an HTML element using shorthand notation?**
+- **2: What is the purpose of negative padding in CSS, and can you provide an example?**
+- **Negative padding is not a standard CSS property. Padding is always a positive value to create space around an element's content. Negative margins, on the other hand, can be used to overlap elements.**
