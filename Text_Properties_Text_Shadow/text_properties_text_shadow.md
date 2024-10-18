@@ -7,8 +7,8 @@
 
 - **```text-decoration-line```:The text-decoration-line property specifies which type of line should be used as decoration for text, such as underline, overline, line-through, or none.**
 - **```text-decoration-color```:The text-decoration-color property sets the color of the text decoration lines, like underlines or overlines.**
-- **```text-decoration-style```:The text-decoration-style property is used to set the style of the decoration line.
-- **```text-decoration-thickness```:Specifies the thickness of the text decoration line.
+- **```text-decoration-style```:The text-decoration-style property is used to set the style of the decoration line.**
+- **```text-decoration-thickness```:Specifies the thickness of the text decoration line.**
 
 - **```textTransform:```- The text-transform property allows you to control the capitalization of text.**
 - **Values include uppercase (converts text to all uppercase), lowercase (converts text to all lowercase), and capitalize (capitalizes the first letter of each word).**
