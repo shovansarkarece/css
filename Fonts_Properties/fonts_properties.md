@@ -34,3 +34,4 @@
 #### 2) What is fallback fonts? Why is it important to include fallback fonts in your CSS font stack, and how do you specify them? */
 - **Including fallback fonts in your CSS font stack is important for ensuring that text remains legible on a variety of devices and browsers. If the preferred font is not available on a user's device, the browser will attempt to use the fallback fonts you specify. This helps maintain a consistent and readable design.**
 - **font-family: "Preferred Font", Fallback1, Fallback2, sans-serif;**
+![Stylus Font](https://www.dafont.com)
