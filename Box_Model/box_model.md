@@ -207,6 +207,17 @@ border-style: outset; */
 
 # INTERVIEW QUESTIONS TO PADDING
 
-- **1: How do you set padding for all sides of an HTML element using shorthand notation?**
-- **2: What is the purpose of negative padding in CSS, and can you provide an example?**
+- **1)How do you set padding for all sides of an HTML element using shorthand notation?**
+- **2)What is the purpose of negative padding in CSS, and can you provide an example?**
 - **Negative padding is not a standard CSS property. Padding is always a positive value to create space around an element's content. Negative margins, on the other hand, can be used to overlap elements.**
+
+# INTERVIEW QUESTIONS TO BORDER
+
+- **1: How do you set a border around an HTML element in CSS? Explain the border property and its values.;**
+- **`border: 2px solid #333;`**
+
+- **2: How can you create rounded corners for an HTML element in CSS?**
+- **`border-radius: 10px;`**
+
+- **3: How do you create a circular border using border-radius? */
+- **`border-radius: 50%;`**
