@@ -92,3 +92,42 @@
 - **In summary, the `padding` property in CSS is a versatile tool for controlling the spacing around an element's content.**
 - **By using different values and techniques, you can achieve precise control over the layout and spacing of elements on your web page, improving both aesthetics and usability.**
 
+# BORDERS
+- **In CSS, the `border` property is used to create and control the borders of HTML elements. Borders are used to visually separate and define the boundaries of elements on a web page. The `border` property allows you to specify the style, width, and color of borders. Let's explore the `border` property in depth:**
+
+### 1. Short-hand Syntax:
+- **`border: [border-width] [border-style] [border-color];`**
+    - **`[border-width]`: Specifies the width of the border (e.g., `1px`, `2px`, `3px`, etc.).**
+    - **`[border-style]`: Specifies the style of the border (e.g., `solid`, `dotted`, `dashed`, etc.).**
+    - **`[border-color]`: Specifies the color of the border (e.g., a color name, hex code, RGB value, etc.).**
+
+/*TODO Let understand the Each border property one by one.  */
+
+/*? Border Width: The border-width property controls the thickness of the border. You can specify it using units like pixels (px), ems (em), or percentages (%). */
+
+/*? Border Style: The border-style property determines the style of the border. Common values include solid, dotted, dashed, double, groove, ridge, inset, and outset. Each style results in a different visual appearance for the border. */
+/* Keyword values */
+/* border-style: none;
+border-style: hidden;
+border-style: dotted;
+border-style: dashed;
+border-style: solid;
+border-style: double;
+border-style: groove;
+border-style: ridge;
+border-style: inset;
+border-style: outset; */
+
+/* top and bottom | left and right */
+/* border-style: dotted solid; */
+
+/* top | left and right | bottom */
+/* border-style: hidden double dashed; */
+
+/*? Border Color: The border-color property sets the color of the border. You can specify it using color names, hex codes, RGB values, or other color notations. */
+
+/** ---------------------------------------- --> */
+
+
+
+
