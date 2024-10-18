@@ -4,11 +4,6 @@
 - **CSS provides several ways to define colors. You can use named colors (e.g., "red"), hexadecimal values (e.g., "#FF5733"), RGB values (e.g., "rgb(255, 87, 51)"), or HSL values.**
 - **Understanding how to apply colors to text and backgrounds is essential for creating visually appealing designs.**
 
-/**  Notes: Colors using Various Notations
-/** ------------------------------------ -->
-
-/*? Named Colors: You can use named colors, which are predefined color keywords. */
-
 # RGB Colors: 
 ![image](https://github.com/user-attachments/assets/42bde622-3085-4b3b-a5b5-f9bed574b308)
 - **RGB (Red, Green, Blue) values allow you to define colors by specifying the amount of red, green, and blue in the color.**
