@@ -101,11 +101,10 @@
     - **`[border-style]`: Specifies the style of the border (e.g., `solid`, `dotted`, `dashed`, etc.).**
     - **`[border-color]`: Specifies the color of the border (e.g., a color name, hex code, RGB value, etc.).**
 
-/*TODO Let understand the Each border property one by one.  */
-
-/*? Border Width: The border-width property controls the thickness of the border. You can specify it using units like pixels (px), ems (em), or percentages (%). */
-
-/*? Border Style: The border-style property determines the style of the border. Common values include solid, dotted, dashed, double, groove, ridge, inset, and outset. Each style results in a different visual appearance for the border. */
+#### Let understand the Each border property one by one.
+- **Border Width: The border-width property controls the thickness of the border. You can specify it using units like pixels (px), ems (em), or percentages (%).**
+- **Border Style: The border-style property determines the style of the border. Common values include solid, dotted, dashed, double, groove, ridge, inset, and outset.Each style results in a different visual appearance for the border.**
+```
 /* Keyword values */
 /* border-style: none;
 border-style: hidden;
@@ -117,17 +116,34 @@ border-style: groove;
 border-style: ridge;
 border-style: inset;
 border-style: outset; */
+```
+- **top and bottom | left and right**
+- **`border-style: dotted solid;`**
 
-/* top and bottom | left and right */
-/* border-style: dotted solid; */
+- **top | left and right | bottom**
+- **`border-style: hidden double dashed;`**
 
-/* top | left and right | bottom */
-/* border-style: hidden double dashed; */
+- **Border Color: The `border-color` property sets the color of the border. You can specify it using color names, hex codes, RGB values, or other color notations.**
+#### Example of all combination
+```
+  /* background-color: #5e9de9; */
+  /*?  border here  */
+  /* border: 15px solid #003180; */
 
-/*? Border Color: The border-color property sets the color of the border. You can specify it using color names, hex codes, RGB values, or other color notations. */
+  /*?  write each property individual  */
+  /* border-width: 15px;
+  border-style: solid;
+  border-color: #003180; */
 
-/** ---------------------------------------- --> */
+  /*? we can write them individually too  */
+  /* border-top: 15px solid #003180;
+  border-right: 15px dotted red;
+  border-bottom: 15px ridge green;
+  border-left: 15px double #003b99; */
 
-
-
+  /*? Now, further we can go more deeper with each individual values. */
+  /* border-top-width: 15px;
+  border-top-style: solid;
+  border-top-color: #003b99; */
+```
 
