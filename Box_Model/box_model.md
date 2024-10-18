@@ -160,3 +160,27 @@ border-style: outset; */
 - **`border-radius: 15px 5px 10px 20px;`**
 - **checkout more on here 👉(https://9elements.github.io/fancy-border-radius)**
 - **checkout more on here 👉(https://10015.io/tools/css-border-radius-generator)**
+
+# INTERVIEW QUESTIONS RELATED TO BOX  MODEL
+- **When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add padding, borders and margins.**
+
+- **Default behavior 👉  width = 800 + 50 + 50 + 20 + 20 + 150px + 150px**
+- **Default behavior 👉  height = 500 + 50 + 50 + 20 + 20 + 100px + 100px**
+
+
+- **1) Explain what the CSS Box Model is and its components.**
+
+- **2) What is the purpose of the box-sizing property in CSS?**
+- **The box-sizing property controls how the total width and height of an element are calculated. The two values it can take are content-box (default) and border-box. content-box calculates the total size including padding and border, while border-box calculates the total size including only padding. */
+
+- **3: How can you make an element's content box 300 pixels wide with a 10-pixel border and 20-pixel padding?**
+```
+/* section {
+  width: 300px;
+  border: 5px solid red;
+  padding: 10px;
+  box-sizing: border-box;
+} */
+```
+- **4: How can you globally apply box-sizing: border-box; to all elements on a web page? ⭐⭐⭐**
+- **Here comes the Universal Operator**
