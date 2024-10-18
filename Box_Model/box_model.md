@@ -27,7 +27,7 @@
 - **The `margin` property defines the space outside the element's border. It creates separation between the element and other elements in the layout.**
 - **Margins create extra space around an element, unlike padding, which creates extra space within an element.**
 - **SYNTAX:**
-### Four Values: `margin: top right bottom left;`**
+### Four Values: `margin: top right bottom left;`
 - **margin: 50px 40px 30px 60px;**
 - **`top`: Specifies the margin on the top side.**
 - **`right`: Specifies the margin on the right side.**
@@ -35,15 +35,15 @@
 - **`left`: Specifies the margin on the left side.**
 ### Four Values: `margin: top right bottom left;`
  - **`margin: 200px 200px 200px 200px;`**
-### Three Values: margin: top right-left bottom;
-- **margin: 50px 30px 60px;**
+### Three Values: `margin: top right-left bottom;`
+- **`margin: 50px 30px 60px;`**
 - **`top`: Specifies the margin on the top side.**
 - **`right-left`: Specifies the margin on the right and left sides.**
 - **`bottom`: Specifies the margin on the bottom side.**
 ### Three Values: `margin: top right-left bottom;`
  - **`margin: 100px 200px 150px;`**
-### Two Values: margin: top-bottom right-left; */
-- **margin: 50px 30px;**
+### Two Values: `margin: top-bottom right-left;`
+- **`margin: 50px 30px;`**
 - **`top-bottom`: Specifies the margin on the top and bottom sides.**
 - **`right-left`: Specifies the margin on the right and left sides.**
 ### Two Values: `margin: top-bottom right-left;`
