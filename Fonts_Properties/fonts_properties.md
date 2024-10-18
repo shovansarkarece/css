@@ -10,3 +10,19 @@
 - **Common values include `normal` (default), `italic`, and `oblique`.**
 ### Font Variant:- The `font-variant` property is used to control the appearance of text characters by modifying their variant forms.
 - **value: normal, small-caps**
+### Import Font
+```
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "thapaFont";
+  src: url("./font/Fortune.otf") format("OpenType");
+}
+```
+### Common font formats and their corresponding format values are:
+
+- **TrueType Font (.ttf): format('truetype') or format('opentype')**
+- **WOFF Font (.woff): format('woff')**
+- **WOFF2 Font (.woff2): format('woff2')**
+- **Embedded OpenType Font (.eot): format('embedded-opentype')**
+- **SVG Font (.svg): format('svg')**
