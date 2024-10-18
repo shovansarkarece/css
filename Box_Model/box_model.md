@@ -158,3 +158,5 @@ border-style: outset; */
 ### Creating Custom Radius for Each Corner: 
 - **top-left | top-right | bottom-right | bottom-left**
 - **`border-radius: 15px 5px 10px 20px;`**
+- **[checkout more on here]👉(https://9elements.github.io/fancy-border-radius)**
+- **[checkout more on here]👉(https://10015.io/tools/css-border-radius-generator)**
