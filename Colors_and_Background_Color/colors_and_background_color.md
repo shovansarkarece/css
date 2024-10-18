@@ -201,7 +201,7 @@ p {
 - **Example: background-image: url('image.jpg');**
 ### ```background-repeat:``` Determines how the background image repeats.
 - **Values: repeat, repeat-x, repeat-y, no-repeat.**
-- **Example: ```background-repeat: repeat-x;```
+- **Example: ```background-repeat: repeat-x;```**
 
 ### ```background-position:``` Sets the starting position of the background image. */
 - **Values: Coordinates like top left, center center, bottom right, percentages, or length values.**
@@ -209,25 +209,21 @@ p {
 
 ### ```background-size:``` Defines the size of the background image.
 - **Values: auto, cover, contain, percentages, or length values.**
-- **Example: ```background-size: cover;``` */
+- **Example: ```background-size: cover;```**
 
-/*? background-attachment: Specifies if the background image scrolls with the content.; */
-/* Values: scroll, fixed, local.
-Example: background-attachment: fixed; */
+### ```background-attachment:``` Specifies if the background image scrolls with the content.;
+- **Values: scroll, fixed, local.**
+- **Example: ```background-attachment: fixed;```** 
+### ```background-blend-mode:``` Applies blending modes to the background image and color.**
+- **Values: Various blending mode keywords like multiply, screen, overlay.**
+- **Example: ```background-blend-mode: multiply;```**
 
-/** ------------------------------------- -->
-/**  BACKGROUND PROPERTY IN CSS3  
-/** ---------------------------------------- -->
-
-/*? background-blend-mode: Applies blending modes to the background image and color. */
-/* Values: Various blending mode keywords like multiply, screen, overlay.
-Example: background-blend-mode: multiply; */
-
-
-
-### 1: How can you set a background image for an element using CSS? */
+# Interview Question
+### 1)How can you set a background image for an element using CSS? */
 - **You can set a background image using the background-image property, like this:```background-image: url('image.jpg');```**
-### 2: How can you make a background image cover the entire element without distortion? */
+### 2)How can you make a background image cover the entire element without distortion? */
 - **You can use background-size: cover; to make the background image cover the entire element while maintaining its aspect ratio. This ensures that the image fills the container without distortion.**
-### 3: How can you apply multiple background images to a single element?
+### 3)How can you apply multiple background images to a single element?
 - **background-image property and using a comma to separate them. For example:```background-image: url('image1.jpg'), url('image2.jpg');```**
+### 4)What is the property that is used for controlling image-scroll?
+- ```background-attachment:fixed```
