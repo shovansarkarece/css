@@ -146,4 +146,15 @@ border-style: outset; */
   border-top-style: solid;
   border-top-color: #003b99; */
 ```
+# Border Radius IN CSS3
+- **Border-radius: The border-radius CSS property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners.**
 
+- **Radius is set for all 4 sides.**
+- **`border-radius: 10px;`**
+
+- **top-left-and-bottom-right | top-right-and-bottom-left**
+- **`border-radius: 10px 20%;`**
+
+### Creating Custom Radius for Each Corner: 
+- **top-left | top-right | bottom-right | bottom-left**
+- **`border-radius: 15px 5px 10px 20px;`**
