@@ -25,3 +25,9 @@
 
 ### Text Shadow:- The text-shadow property allows you to add a shadow effect to text characters.
 - **It takes three values: horizontal shadow offset, vertical shadow offset, and the shadow color.**
+## INTERVIEW QUESTIONS
+- **1)How can you control the spacing between lines of text in CSS? */
+- **The line-height property is used to control the spacing between lines of text. It can be set to a specific unit like px or a relative value like 1.5, which multiplies the font size.**
+
+- **2: How can you create drop caps (initial letter styling) in CSS?**
+- **You can create drop caps using the ::first-letter pseudo-element in CSS.**
