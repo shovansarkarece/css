@@ -201,5 +201,5 @@ border-style: outset; */
 - **You can set margin for all sides using shorthand notation**
 - **`margin: 10px 20px 15px 30px;`**
 
-- **3: How can you center-align an HTML element horizontally using margins? ⭐⭐⭐⭐⭐  */
-- ** Using `margin:auto;`**
+- **3: How can you center-align an HTML element horizontally using margins? ⭐⭐⭐⭐⭐**
+- **Using `margin:auto;`**
