@@ -2036,9 +2036,8 @@ justify-items: stretch;
 
 
 
-/*? 8. Responsive Grids: */
-
-/* CSS Grid is highly responsive. Grid items can be repositioned and resized automatically as the viewport size changes. */
-/* Use media queries to adjust grid layouts for different screen sizes. */
+# 8. Responsive Grids:
+- **CSS Grid is highly responsive. Grid items can be repositioned and resized automatically as the viewport size changes.**
+- **Use media queries to adjust grid layouts for different screen sizes.**
 
 
